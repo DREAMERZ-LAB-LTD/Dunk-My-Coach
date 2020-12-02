@@ -61,12 +61,6 @@ namespace UnityStandardAssets.ImageEffects
 
         protected void Start()
         {
-            // Disable if we don't support image effects
-            if (!SystemInfo.supportsImageEffects)
-            {
-                enabled = false;
-                return;
-            }
             // Disable if the shader can't run on the users graphics card
             if (!blurShader || !material.shader.isSupported)
             {
@@ -110,7 +104,6 @@ namespace UnityStandardAssets.ImageEffects
 
         // Called by the camera to apply the image effect
 		RenderTexture buffer;
-		RenderTexture buffer3;
 		RenderTexture buffer2;
         void OnRenderImage(RenderTexture source, RenderTexture destination)
         {
