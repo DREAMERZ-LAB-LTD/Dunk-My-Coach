@@ -8,10 +8,11 @@ public class CoachCollider : MonoBehaviour
 {
     [SerializeField] Animator animator;
     bool wet = false;
-    float delay = 1;
+    float delay = 2;
     public bool won = false;
     [SerializeField] Transform levelCompletionUI;
     [SerializeField] ParticleSystem particle;
+    [SerializeField] GameObject collisionParticle;
 
     //// Start is called before the first frame update
     //void Start()
@@ -29,9 +30,14 @@ public class CoachCollider : MonoBehaviour
     //}
     void OnTriggerEnter2D(Collider2D col)
     {
+        if (col) { 
+        GameObject c = Instantiate(collisionParticle, col.transform.position, Quaternion.identity);
+        c.GetComponent<ParticleSystem>().Play();
+            }
         if (wet)
             return;
 
+        particle.Play();
 
         if (col.transform.CompareTag("Metaball_liquid"))
         {
@@ -51,7 +57,6 @@ public class CoachCollider : MonoBehaviour
             {
                 if (!won)
                 {
-                    particle.Play();
                     animator.SetTrigger("After fall");
                     won = true;
                     levelCompletionUI.gameObject.SetActive(true);

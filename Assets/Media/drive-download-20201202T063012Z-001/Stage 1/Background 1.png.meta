@@ -1,0 +1,2096 @@
+fileFormatVersion: 2
+guid: dbabf4920f0075f4ca137675ad51c7d3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7790544929387226549
+    second: Background 1_0
+  - first:
+      213: -5937887645930863140
+    second: Background 1_1
+  - first:
+      213: 5393971747151039009
+    second: Background 1_2
+  - first:
+      213: 5444537502011390114
+    second: Background 1_3
+  - first:
+      213: -8200829610017290467
+    second: Background 1_4
+  - first:
+      213: -421209468273406977
+    second: Background 1_5
+  - first:
+      213: 2276004530785111215
+    second: Background 1_6
+  - first:
+      213: 2510129969152564761
+    second: Background 1_7
+  - first:
+      213: -1792253980004403234
+    second: Background 1_8
+  - first:
+      213: -1955563454340242507
+    second: Background 1_9
+  - first:
+      213: 2401049839375300773
+    second: Background 1_10
+  - first:
+      213: -3688556304860216872
+    second: Background 1_11
+  - first:
+      213: -8995359750498302158
+    second: Background 1_12
+  - first:
+      213: -5950575677054131267
+    second: Background 1_13
+  - first:
+      213: -2322117914504143831
+    second: Background 1_14
+  - first:
+      213: 2059099154463325351
+    second: Background 1_15
+  - first:
+      213: 257529785191944757
+    second: Background 1_16
+  - first:
+      213: 171353582228732378
+    second: Background 1_17
+  - first:
+      213: -7130675202493675629
+    second: Background 1_18
+  - first:
+      213: 4323688259567432037
+    second: Background 1_19
+  - first:
+      213: 2787293757379926802
+    second: Background 1_20
+  - first:
+      213: -7334157276785354626
+    second: Background 1_21
+  - first:
+      213: 5690330237767335697
+    second: Background 1_22
+  - first:
+      213: -7404862818732500633
+    second: Background 1_23
+  - first:
+      213: -1387214743289671252
+    second: Background 1_24
+  - first:
+      213: 6732452156444914527
+    second: Background 1_25
+  - first:
+      213: -7014280337692483085
+    second: Background 1_26
+  - first:
+      213: -5394208278559501570
+    second: Background 1_27
+  - first:
+      213: -8467404849979301432
+    second: Background 1_28
+  - first:
+      213: 2968170404902395859
+    second: Background 1_29
+  - first:
+      213: 5032166192310783301
+    second: Background 1_30
+  - first:
+      213: -894812659473953119
+    second: Background 1_31
+  - first:
+      213: -5051809877258359464
+    second: Background 1_32
+  - first:
+      213: -7075649066277154817
+    second: Background 1_33
+  - first:
+      213: 4590468657276994735
+    second: Background 1_34
+  - first:
+      213: 3169283498392967566
+    second: Background 1_35
+  - first:
+      213: 8272304417956178404
+    second: Background 1_36
+  - first:
+      213: 797994849896799272
+    second: Background 1_37
+  - first:
+      213: -8660113714097231448
+    second: Background 1_38
+  - first:
+      213: 6478184941752863214
+    second: Background 1_39
+  - first:
+      213: -150225680136907159
+    second: Background 1_40
+  - first:
+      213: -6286512101834101403
+    second: Background 1_41
+  - first:
+      213: -2535037480673961343
+    second: Background 1_42
+  - first:
+      213: 2234902163527043133
+    second: Background 1_43
+  - first:
+      213: 5910620902052990082
+    second: Background 1_44
+  - first:
+      213: -3778861310428656890
+    second: Background 1_45
+  - first:
+      213: 8427705543557348514
+    second: Background 1_46
+  - first:
+      213: 8100964500750459805
+    second: Background 1_47
+  - first:
+      213: -5853401634463313235
+    second: Background 1_48
+  - first:
+      213: -6671859149790982455
+    second: Background 1_49
+  - first:
+      213: 2909554144618565449
+    second: Background 1_50
+  - first:
+      213: 2430043934966938963
+    second: Background 1_51
+  - first:
+      213: -3015830303308856316
+    second: Background 1_52
+  - first:
+      213: 8937325607497304211
+    second: Background 1_53
+  - first:
+      213: 2493797944116120254
+    second: Background 1_54
+  - first:
+      213: 7323212158565823756
+    second: Background 1_55
+  - first:
+      213: -6681775013642622810
+    second: Background 1_56
+  - first:
+      213: 8763311733163211992
+    second: Background 1_57
+  - first:
+      213: 3153772831440752131
+    second: Background 1_58
+  - first:
+      213: 8656954120183653895
+    second: Background 1_59
+  - first:
+      213: -6813770811468666509
+    second: Background 1_60
+  - first:
+      213: -5250031070480607351
+    second: Background 1_61
+  - first:
+      213: 3465814021838557005
+    second: Background 1_62
+  - first:
+      213: 7775249276707290296
+    second: Background 1_63
+  - first:
+      213: -8985031973532210022
+    second: Background 1_64
+  - first:
+      213: -2834124993204747861
+    second: Background 1_65
+  - first:
+      213: 5721831160315705894
+    second: Background 1_66
+  - first:
+      213: 5683224738017274338
+    second: Background 1_67
+  - first:
+      213: -5447050652115625070
+    second: Background 1_68
+  - first:
+      213: -5211572902995244576
+    second: Background 1_69
+  - first:
+      213: 3889060843449829718
+    second: Background 1_70
+  - first:
+      213: 281788170978294238
+    second: Background 1_71
+  - first:
+      213: 6870041976414476764
+    second: Background 1_72
+  - first:
+      213: -773342268107339851
+    second: Background 1_73
+  - first:
+      213: -4560855679554868110
+    second: Background 1_74
+  - first:
+      213: 4959666765340065868
+    second: Background 1_75
+  - first:
+      213: 9190872181110571612
+    second: Background 1_76
+  - first:
+      213: -1333477216270639580
+    second: Background 1_77
+  - first:
+      213: -5537531695365953727
+    second: Background 1_78
+  - first:
+      213: 3785998512750667561
+    second: Background 1_79
+  - first:
+      213: -1604145980795940813
+    second: Background 1_80
+  - first:
+      213: 8652840333023491405
+    second: Background 1_81
+  - first:
+      213: -485554502382395576
+    second: Background 1_82
+  - first:
+      213: 6946952767911598411
+    second: Background 1_83
+  - first:
+      213: -5840811118816921785
+    second: Background 1_84
+  - first:
+      213: -8952128080566309713
+    second: Background 1_85
+  - first:
+      213: -8747337519761851172
+    second: Background 1_86
+  - first:
+      213: -871025636316361354
+    second: Background 1_87
+  - first:
+      213: -6319792682031911967
+    second: Background 1_88
+  - first:
+      213: -6608779169229431936
+    second: Background 1_89
+  - first:
+      213: -2248440500674897776
+    second: Background 1_90
+  - first:
+      213: 3642675465355710679
+    second: Background 1_91
+  - first:
+      213: -1837789613202757301
+    second: Background 1_92
+  - first:
+      213: 1040444802220784379
+    second: Background 1_93
+  - first:
+      213: -3061752193778475518
+    second: Background 1_94
+  - first:
+      213: 5364320858350020977
+    second: Background 1_95
+  - first:
+      213: -5102267971582514409
+    second: Background 1_96
+  - first:
+      213: -7875289587008385530
+    second: Background 1_97
+  - first:
+      213: -2973490432690792699
+    second: Background 1_98
+  - first:
+      213: -5117327445338118286
+    second: Background 1_99
+  - first:
+      213: 1252509513624839133
+    second: Background 1_100
+  - first:
+      213: -313130727840890109
+    second: Background 1_101
+  - first:
+      213: 3977271282312774540
+    second: Background 1_102
+  - first:
+      213: 5296597821470966183
+    second: Background 1_103
+  - first:
+      213: -2184610926806836285
+    second: Background 1_104
+  - first:
+      213: 2443883872140151953
+    second: Background 1_105
+  - first:
+      213: -5020253591296068730
+    second: Background 1_106
+  - first:
+      213: 8026256982371605581
+    second: Background 1_107
+  - first:
+      213: -9094568713300718507
+    second: Background 1_108
+  - first:
+      213: -6985048486398439242
+    second: Background 1_109
+  - first:
+      213: 130351663018286410
+    second: Background 1_110
+  - first:
+      213: 4849291528357586395
+    second: Background 1_111
+  - first:
+      213: 5505213820327468424
+    second: Background 1_112
+  - first:
+      213: -2850377063340270435
+    second: Background 1_113
+  - first:
+      213: -7112556580865603323
+    second: Background 1_114
+  - first:
+      213: -6208218012538354112
+    second: Background 1_115
+  - first:
+      213: -2269728627063243044
+    second: Background 1_116
+  - first:
+      213: 7388245812422856696
+    second: Background 1_117
+  - first:
+      213: -4748392230155152642
+    second: Background 1_118
+  - first:
+      213: -3452842136273699825
+    second: Background 1_119
+  - first:
+      213: -6900083484083046843
+    second: Background 1_120
+  - first:
+      213: -5295527707691274992
+    second: Background 1_121
+  - first:
+      213: 7442898047139725238
+    second: Background 1_122
+  - first:
+      213: -2437221174641884481
+    second: Background 1_123
+  - first:
+      213: -5812138432290326536
+    second: Background 1_124
+  - first:
+      213: 1805671460250344890
+    second: Background 1_125
+  - first:
+      213: 4850777549389789472
+    second: Background 1_126
+  - first:
+      213: 2261630555319751649
+    second: Background 1_127
+  - first:
+      213: -1330737100868653040
+    second: Background 1_128
+  - first:
+      213: -8712454143825256320
+    second: Background 1_129
+  - first:
+      213: -4318315340263048637
+    second: Background 1_130
+  - first:
+      213: 421576377872046168
+    second: Background 1_131
+  - first:
+      213: -1349338101968421908
+    second: Background 1_132
+  - first:
+      213: 1994563390023326466
+    second: Background 1_133
+  - first:
+      213: -5590761788139761854
+    second: Background 1_134
+  - first:
+      213: -1238117102194467458
+    second: Background 1_135
+  - first:
+      213: -4036905668801187479
+    second: Background 1_136
+  - first:
+      213: 1136365930003561320
+    second: Background 1_137
+  - first:
+      213: 5364949134129860368
+    second: Background 1_138
+  - first:
+      213: 7283271395457046056
+    second: Background 1_139
+  - first:
+      213: -5072167143489888971
+    second: Background 1_140
+  - first:
+      213: -8157990448350601461
+    second: Background 1_141
+  - first:
+      213: 6988022161230418516
+    second: Background 1_142
+  - first:
+      213: 7509889450833133532
+    second: Background 1_143
+  - first:
+      213: 7691002938257763348
+    second: Background 1_144
+  - first:
+      213: 6116099632110149932
+    second: Background 1_145
+  - first:
+      213: -2847743393766330821
+    second: Background 1_146
+  - first:
+      213: 1449013119024913986
+    second: Background 1_147
+  - first:
+      213: 4012257349285704967
+    second: Background 1_148
+  - first:
+      213: 2367250101236821872
+    second: Background 1_149
+  - first:
+      213: -7994731795150532006
+    second: Background 1_150
+  - first:
+      213: 3962577411984962330
+    second: Background 1_151
+  - first:
+      213: -7411929645629997325
+    second: Background 1_152
+  - first:
+      213: -5549835156833706613
+    second: Background 1_153
+  - first:
+      213: 675051762095981196
+    second: Background 1_154
+  - first:
+      213: 5805776231051296566
+    second: Background 1_155
+  - first:
+      213: 6001408930377311380
+    second: Background 1_156
+  - first:
+      213: 1876639430648227546
+    second: Background 1_157
+  - first:
+      213: 317496711832789924
+    second: Background 1_158
+  - first:
+      213: -3274099186946478442
+    second: Background 1_159
+  - first:
+      213: 3093816468573277135
+    second: Background 1_160
+  - first:
+      213: -4916525999948688689
+    second: Background 1_161
+  - first:
+      213: 6418550164316897208
+    second: Background 1_162
+  - first:
+      213: -8296971733933504391
+    second: Background 1_163
+  - first:
+      213: 3192534116412703180
+    second: Background 1_164
+  - first:
+      213: -7982912820977859087
+    second: Background 1_165
+  - first:
+      213: -873005092545452989
+    second: Background 1_166
+  - first:
+      213: 8658684764125572826
+    second: Background 1_167
+  - first:
+      213: 4940086687758412311
+    second: Background 1_168
+  - first:
+      213: -913803120272881101
+    second: Background 1_169
+  - first:
+      213: -4659100387756160891
+    second: Background 1_170
+  - first:
+      213: -2757800488406393817
+    second: Background 1_171
+  - first:
+      213: 6074993858020750550
+    second: Background 1_172
+  - first:
+      213: 703600769505090628
+    second: Background 1_173
+  - first:
+      213: -5361117695657052941
+    second: Background 1_174
+  - first:
+      213: -3249545473700379133
+    second: Background 1_175
+  - first:
+      213: -3063879366589981455
+    second: Background 1_176
+  - first:
+      213: -8773366611683233982
+    second: Background 1_177
+  - first:
+      213: 6501159743051625406
+    second: Background 1_178
+  - first:
+      213: -4557186660126299839
+    second: Background 1_179
+  - first:
+      213: 8426807388170526122
+    second: Background 1_180
+  - first:
+      213: -6075769713758778299
+    second: Background 1_181
+  - first:
+      213: 6193353465173539739
+    second: Background 1_182
+  - first:
+      213: 8027585899506420922
+    second: Background 1_183
+  - first:
+      213: 8418584976888470939
+    second: Background 1_184
+  - first:
+      213: -2590092989056363944
+    second: Background 1_185
+  - first:
+      213: 4932676311523600008
+    second: Background 1_186
+  - first:
+      213: -7278547865251662128
+    second: Background 1_187
+  - first:
+      213: -1960975230563755522
+    second: Background 1_188
+  - first:
+      213: 6935148957925311803
+    second: Background 1_189
+  - first:
+      213: -3499802062878917283
+    second: Background 1_190
+  - first:
+      213: 7103747819356823497
+    second: Background 1_191
+  - first:
+      213: -6633252683729060062
+    second: Background 1_192
+  - first:
+      213: -4175329070303802992
+    second: Background 1_193
+  - first:
+      213: -3263480467919534101
+    second: Background 1_194
+  - first:
+      213: -3197732905033663454
+    second: Background 1_195
+  - first:
+      213: -8375396691226067517
+    second: Background 1_196
+  - first:
+      213: -6599091669910732041
+    second: Background 1_197
+  - first:
+      213: -7223214754345347526
+    second: Background 1_198
+  - first:
+      213: -8235938563554628009
+    second: Background 1_199
+  - first:
+      213: 1272148155506923781
+    second: Background 1_200
+  - first:
+      213: 6648536269158165635
+    second: Background 1_201
+  - first:
+      213: 1799446246973752852
+    second: Background 1_202
+  - first:
+      213: 5729843472310970057
+    second: Background 1_203
+  - first:
+      213: 3223603067033661891
+    second: Background 1_204
+  - first:
+      213: 8674652475678693444
+    second: Background 1_205
+  - first:
+      213: -6937498331127317804
+    second: Background 1_206
+  - first:
+      213: 3809801194727307794
+    second: Background 1_207
+  - first:
+      213: -7223016154971097393
+    second: Background 1_208
+  - first:
+      213: -4731573909256099684
+    second: Background 1_209
+  - first:
+      213: 661422207890071112
+    second: Background 1_210
+  - first:
+      213: 640360485762091870
+    second: Background 1_211
+  - first:
+      213: 8706535519694032081
+    second: Background 1_212
+  - first:
+      213: 1242758197379561492
+    second: Background 1_213
+  - first:
+      213: -4906408355559272875
+    second: Background 1_214
+  - first:
+      213: -5801577496598988578
+    second: Background 1_215
+  - first:
+      213: -5094736182350291596
+    second: Background 1_216
+  - first:
+      213: 5097377175414551279
+    second: Background 1_217
+  - first:
+      213: 7595452643126632079
+    second: Background 1_218
+  - first:
+      213: 484073227324538767
+    second: Background 1_219
+  - first:
+      213: 1269871417579925343
+    second: Background 1_220
+  - first:
+      213: 5381836589614695937
+    second: Background 1_221
+  - first:
+      213: 7206315990871748767
+    second: Background 1_222
+  - first:
+      213: -9048621367242131430
+    second: Background 1_223
+  - first:
+      213: -1384019457244012196
+    second: Background 1_224
+  - first:
+      213: -3430164856881480369
+    second: Background 1_225
+  - first:
+      213: 4021735021878391337
+    second: Background 1_226
+  - first:
+      213: -3614454340921937258
+    second: Background 1_227
+  - first:
+      213: 7602505481994032017
+    second: Background 1_228
+  - first:
+      213: 7261911459831600978
+    second: Background 1_229
+  - first:
+      213: 3106268945988495377
+    second: Background 1_230
+  - first:
+      213: 5057324866583228458
+    second: Background 1_231
+  - first:
+      213: 8540393045698089088
+    second: Background 1_232
+  - first:
+      213: -5594632719362828147
+    second: Background 1_233
+  - first:
+      213: -4438078391167271281
+    second: Background 1_234
+  - first:
+      213: 5931392924793688404
+    second: Background 1_235
+  - first:
+      213: -1510163668443200089
+    second: Background 1_236
+  - first:
+      213: 3360647100921348515
+    second: Background 1_237
+  - first:
+      213: 1224831539246066229
+    second: Background 1_238
+  - first:
+      213: -501988246392481223
+    second: Background 1_239
+  - first:
+      213: 2453639452210258428
+    second: Background 1_240
+  - first:
+      213: 1069103318856462368
+    second: Background 1_241
+  - first:
+      213: 7861903735482392643
+    second: Background 1_242
+  - first:
+      213: 3202559755268638166
+    second: Background 1_243
+  - first:
+      213: 6638654409398589641
+    second: Background 1_244
+  - first:
+      213: 7319185457130785879
+    second: Background 1_245
+  - first:
+      213: -5489989327069157730
+    second: Background 1_246
+  - first:
+      213: 984444650117372362
+    second: Background 1_247
+  - first:
+      213: -1398964652611361187
+    second: Background 1_248
+  - first:
+      213: 7273059869485066235
+    second: Background 1_249
+  - first:
+      213: 2019754781054032307
+    second: Background 1_250
+  - first:
+      213: 8660290541268185745
+    second: Background 1_251
+  - first:
+      213: 7139700257618698883
+    second: Background 1_252
+  - first:
+      213: 2691733674546286558
+    second: Background 1_253
+  - first:
+      213: -3714865707320865153
+    second: Background 1_254
+  - first:
+      213: -1325709480386362746
+    second: Background 1_255
+  - first:
+      213: 3872527377676635343
+    second: Background 1_256
+  - first:
+      213: 1388477173226846297
+    second: Background 1_257
+  - first:
+      213: -2427935545882128946
+    second: Background 1_258
+  - first:
+      213: 7308863392152950987
+    second: Background 1_259
+  - first:
+      213: -3941737355343809728
+    second: Background 1_260
+  - first:
+      213: -5542921658283264188
+    second: Background 1_261
+  - first:
+      213: -7277083933692023367
+    second: Background 1_262
+  - first:
+      213: 7893694070948793667
+    second: Background 1_263
+  - first:
+      213: -177111220884394409
+    second: Background 1_264
+  - first:
+      213: 2394441072880460738
+    second: Background 1_265
+  - first:
+      213: 4096598980973610617
+    second: Background 1_266
+  - first:
+      213: 16190096617557701
+    second: Background 1_267
+  - first:
+      213: -4779431109965353888
+    second: Background 1_268
+  - first:
+      213: -8321945339268071218
+    second: Background 1_269
+  - first:
+      213: 5695299134856890685
+    second: Background 1_270
+  - first:
+      213: 665658255646318051
+    second: Background 1_271
+  - first:
+      213: -560361838911553593
+    second: Background 1_272
+  - first:
+      213: -4095029538534257149
+    second: Background 1_273
+  - first:
+      213: -5633764165333975674
+    second: Background 1_274
+  - first:
+      213: 9120893862840741906
+    second: Background 1_275
+  - first:
+      213: -3344354533538431619
+    second: Background 1_276
+  - first:
+      213: -5764239843041142236
+    second: Background 1_277
+  - first:
+      213: 8397125640289431391
+    second: Background 1_278
+  - first:
+      213: 7775830520399737369
+    second: Background 1_279
+  - first:
+      213: -2840744484347313300
+    second: Background 1_280
+  - first:
+      213: 6898705854560393487
+    second: Background 1_281
+  - first:
+      213: 4779173564278928608
+    second: Background 1_282
+  - first:
+      213: 6535699392793935554
+    second: Background 1_283
+  - first:
+      213: -3798724504880562767
+    second: Background 1_284
+  - first:
+      213: 5946581988460024930
+    second: Background 1_285
+  - first:
+      213: -4461329782410757923
+    second: Background 1_286
+  - first:
+      213: -589584598999291241
+    second: Background 1_287
+  - first:
+      213: 354637295297716017
+    second: Background 1_288
+  - first:
+      213: 4687168730289428897
+    second: Background 1_289
+  - first:
+      213: 6074008669315227989
+    second: Background 1_290
+  - first:
+      213: -4247809441427814136
+    second: Background 1_291
+  - first:
+      213: 956356527627292317
+    second: Background 1_292
+  - first:
+      213: -918645690628866565
+    second: Background 1_293
+  - first:
+      213: -5404847526578263191
+    second: Background 1_294
+  - first:
+      213: -1097709142222358113
+    second: Background 1_295
+  - first:
+      213: -5586710205047573208
+    second: Background 1_296
+  - first:
+      213: -489348069737694012
+    second: Background 1_297
+  - first:
+      213: 6542296750604138411
+    second: Background 1_298
+  - first:
+      213: 7112906076782452871
+    second: Background 1_299
+  - first:
+      213: 3807486930912393607
+    second: Background 1_300
+  - first:
+      213: -8932822851243327955
+    second: Background 1_301
+  - first:
+      213: 2208187532202154033
+    second: Background 1_302
+  - first:
+      213: -4392678873822508527
+    second: Background 1_303
+  - first:
+      213: 882591293172951578
+    second: Background 1_304
+  - first:
+      213: -4095126515643797929
+    second: Background 1_305
+  - first:
+      213: 4302289700350252075
+    second: Background 1_306
+  - first:
+      213: 4277187234153490649
+    second: Background 1_307
+  - first:
+      213: 4218358693562440503
+    second: Background 1_308
+  - first:
+      213: -470514739596111602
+    second: Background 1_309
+  - first:
+      213: -2422615290957041499
+    second: Background 1_310
+  - first:
+      213: -824308463867067890
+    second: Background 1_311
+  - first:
+      213: 2128060456432909766
+    second: Background 1_312
+  - first:
+      213: 4366160326849490557
+    second: Background 1_313
+  - first:
+      213: -8675506079064307291
+    second: Background 1_314
+  - first:
+      213: 3543341137659623733
+    second: Background 1_315
+  - first:
+      213: -4939692245806886406
+    second: Background 1_316
+  - first:
+      213: 2207564828111722018
+    second: Background 1_317
+  - first:
+      213: -463289603154117938
+    second: Background 1_318
+  - first:
+      213: -9007465504339443678
+    second: Background 1_319
+  - first:
+      213: 7492443047661763771
+    second: Background 1_320
+  - first:
+      213: 3858886483409547267
+    second: Background 1_321
+  - first:
+      213: 2425852309792580251
+    second: Background 1_322
+  - first:
+      213: -4001627355672842317
+    second: Background 1_323
+  - first:
+      213: -6417784874473951985
+    second: Background 1_324
+  - first:
+      213: -8536593649795016405
+    second: Background 1_325
+  - first:
+      213: 4903565045280521264
+    second: Background 1_326
+  - first:
+      213: -2253988965378435252
+    second: Background 1_327
+  - first:
+      213: -6950106053587472360
+    second: Background 1_328
+  - first:
+      213: -7579496180211219690
+    second: Background 1_329
+  - first:
+      213: 2306038861321036225
+    second: Background 1_330
+  - first:
+      213: -3325160322540306948
+    second: Background 1_331
+  - first:
+      213: 7195771649267099289
+    second: Background 1_332
+  - first:
+      213: 742810510529768036
+    second: Background 1_333
+  - first:
+      213: 8863534806860336607
+    second: Background 1_334
+  - first:
+      213: -6850806837942181076
+    second: Background 1_335
+  - first:
+      213: 4129634978077497979
+    second: Background 1_336
+  - first:
+      213: -3729531041188632867
+    second: Background 1_337
+  - first:
+      213: -3297156381261939025
+    second: Background 1_338
+  - first:
+      213: -1023129846583104269
+    second: Background 1_339
+  - first:
+      213: -9153804192391728781
+    second: Background 1_340
+  - first:
+      213: 370674063562763411
+    second: Background 1_341
+  - first:
+      213: 7717160281572419532
+    second: Background 1_342
+  - first:
+      213: -5573388196872907893
+    second: Background 1_343
+  - first:
+      213: -6339331958455764988
+    second: Background 1_344
+  - first:
+      213: -2878687432231115628
+    second: Background 1_345
+  - first:
+      213: 7315235913123685870
+    second: Background 1_346
+  - first:
+      213: -7012595038807479374
+    second: Background 1_347
+  - first:
+      213: -1491958544145719744
+    second: Background 1_348
+  - first:
+      213: 4190479913654325485
+    second: Background 1_349
+  - first:
+      213: 5986368918016619930
+    second: Background 1_350
+  - first:
+      213: -2168259617791894914
+    second: Background 1_351
+  - first:
+      213: 8831381237860693054
+    second: Background 1_352
+  - first:
+      213: -1593945212788985081
+    second: Background 1_353
+  - first:
+      213: 2418713074813057395
+    second: Background 1_354
+  - first:
+      213: -1806605681247283210
+    second: Background 1_355
+  - first:
+      213: 2816512645819229188
+    second: Background 1_356
+  - first:
+      213: -1871503027910577834
+    second: Background 1_357
+  - first:
+      213: 2629710863429548189
+    second: Background 1_358
+  - first:
+      213: -134189863884663328
+    second: Background 1_359
+  - first:
+      213: 3304406982272009418
+    second: Background 1_360
+  - first:
+      213: -8360828157935175768
+    second: Background 1_361
+  - first:
+      213: -3915890165106618306
+    second: Background 1_362
+  - first:
+      213: 5747248424017072220
+    second: Background 1_363
+  - first:
+      213: -8863295439018039230
+    second: Background 1_364
+  - first:
+      213: -4708377527601753234
+    second: Background 1_365
+  - first:
+      213: -2713136598285223218
+    second: Background 1_366
+  - first:
+      213: 874962504065620771
+    second: Background 1_367
+  - first:
+      213: -5682660341078348852
+    second: Background 1_368
+  - first:
+      213: 3741301154458501908
+    second: Background 1_369
+  - first:
+      213: 8336340858181800181
+    second: Background 1_370
+  - first:
+      213: 8346480557228995386
+    second: Background 1_371
+  - first:
+      213: 1714361099640115544
+    second: Background 1_372
+  - first:
+      213: 5480320957441946180
+    second: Background 1_373
+  - first:
+      213: 9161777188405100663
+    second: Background 1_374
+  - first:
+      213: 6688973926194142355
+    second: Background 1_375
+  - first:
+      213: -5791248866669355851
+    second: Background 1_376
+  - first:
+      213: 4184363874506678010
+    second: Background 1_377
+  - first:
+      213: 6803340116152831633
+    second: Background 1_378
+  - first:
+      213: -2404731319209424657
+    second: Background 1_379
+  - first:
+      213: 5459141486490598331
+    second: Background 1_380
+  - first:
+      213: -4663078845672368234
+    second: Background 1_381
+  - first:
+      213: -7686583308077875666
+    second: Background 1_382
+  - first:
+      213: -5440416786391240494
+    second: Background 1_383
+  - first:
+      213: 7646868000576628875
+    second: Background 1_384
+  - first:
+      213: -792143619352045057
+    second: Background 1_385
+  - first:
+      213: -5340102859768291883
+    second: Background 1_386
+  - first:
+      213: -5814089089137936509
+    second: Background 1_387
+  - first:
+      213: -8142316468119173203
+    second: Background 1_388
+  - first:
+      213: -177340166348009749
+    second: Background 1_389
+  - first:
+      213: 7394683246556855916
+    second: Background 1_390
+  - first:
+      213: 3550713925927599950
+    second: Background 1_391
+  - first:
+      213: 8985903364898711369
+    second: Background 1_392
+  - first:
+      213: 2785676104430307589
+    second: Background 1_393
+  - first:
+      213: -4055249998503590548
+    second: Background 1_394
+  - first:
+      213: 6739865569111553842
+    second: Background 1_395
+  - first:
+      213: -1435569717844069778
+    second: Background 1_396
+  - first:
+      213: 6756147009972985804
+    second: Background 1_397
+  - first:
+      213: -2788913996394693821
+    second: Background 1_398
+  - first:
+      213: 8890911391961902837
+    second: Background 1_399
+  - first:
+      213: 4562470147006625460
+    second: Background 1_400
+  - first:
+      213: -4432255120550440128
+    second: Background 1_401
+  - first:
+      213: -5637658688910389638
+    second: Background 1_402
+  - first:
+      213: 8201622643288501506
+    second: Background 1_403
+  - first:
+      213: 1153918343037157965
+    second: Background 1_404
+  - first:
+      213: 6792932740651359039
+    second: Background 1_405
+  - first:
+      213: -1984238411372560900
+    second: Background 1_406
+  - first:
+      213: 2401518180110223522
+    second: Background 1_407
+  - first:
+      213: -465983380568175474
+    second: Background 1_408
+  - first:
+      213: -4197434312151959920
+    second: Background 1_409
+  - first:
+      213: 7977203209090826029
+    second: Background 1_410
+  - first:
+      213: 2290091806224805409
+    second: Background 1_411
+  - first:
+      213: -7246646068679637368
+    second: Background 1_412
+  - first:
+      213: 7851051183433178231
+    second: Background 1_413
+  - first:
+      213: 7950447746775089485
+    second: Background 1_414
+  - first:
+      213: 8751341762792261583
+    second: Background 1_415
+  - first:
+      213: -3538400764380756018
+    second: Background 1_416
+  - first:
+      213: -5872811578678087627
+    second: Background 1_417
+  - first:
+      213: 2049972690961047311
+    second: Background 1_418
+  - first:
+      213: 8383085501336282926
+    second: Background 1_419
+  - first:
+      213: -2910162957450215156
+    second: Background 1_420
+  - first:
+      213: 5044605176356999941
+    second: Background 1_421
+  - first:
+      213: 832017855113258472
+    second: Background 1_422
+  - first:
+      213: -2756245676310425891
+    second: Background 1_423
+  - first:
+      213: -6823479915413962712
+    second: Background 1_424
+  - first:
+      213: 5612280961181319234
+    second: Background 1_425
+  - first:
+      213: -5164820081511565293
+    second: Background 1_426
+  - first:
+      213: 7212156074233961445
+    second: Background 1_427
+  - first:
+      213: 4105226924222879619
+    second: Background 1_428
+  - first:
+      213: 4132349201786387342
+    second: Background 1_429
+  - first:
+      213: -144883625804140323
+    second: Background 1_430
+  - first:
+      213: 4187404886470406475
+    second: Background 1_431
+  - first:
+      213: -2009107762965366428
+    second: Background 1_432
+  - first:
+      213: 2329228085681676805
+    second: Background 1_433
+  - first:
+      213: -3650279339817714725
+    second: Background 1_434
+  - first:
+      213: 3088330740502577977
+    second: Background 1_435
+  - first:
+      213: 8841021308752549250
+    second: Background 1_436
+  - first:
+      213: -764180185055685745
+    second: Background 1_437
+  - first:
+      213: -1210758607151646658
+    second: Background 1_438
+  - first:
+      213: 4587905177481523847
+    second: Background 1_439
+  - first:
+      213: -2932418503461042922
+    second: Background 1_440
+  - first:
+      213: 2778595258958707287
+    second: Background 1_441
+  - first:
+      213: -4156917690906842384
+    second: Background 1_442
+  - first:
+      213: -6011368388227489324
+    second: Background 1_443
+  - first:
+      213: 6676519814117207355
+    second: Background 1_444
+  - first:
+      213: 8196885519292139823
+    second: Background 1_445
+  - first:
+      213: 4538182086840148726
+    second: Background 1_446
+  - first:
+      213: -1573399241068072199
+    second: Background 1_447
+  - first:
+      213: -3115090313895439228
+    second: Background 1_448
+  - first:
+      213: -600377186020017709
+    second: Background 1_449
+  - first:
+      213: 3197001545052384741
+    second: Background 1_450
+  - first:
+      213: -3021229906870589630
+    second: Background 1_451
+  - first:
+      213: -6192507233796356962
+    second: Background 1_452
+  - first:
+      213: 362092580061307556
+    second: Background 1_453
+  - first:
+      213: 7941379840688453013
+    second: Background 1_454
+  - first:
+      213: 5350086278618891425
+    second: Background 1_455
+  - first:
+      213: 1613133865551562085
+    second: Background 1_456
+  - first:
+      213: -8989240337476834595
+    second: Background 1_457
+  - first:
+      213: 7058693953548939117
+    second: Background 1_458
+  - first:
+      213: -1152263588877067927
+    second: Background 1_459
+  - first:
+      213: 8921031782208212621
+    second: Background 1_460
+  - first:
+      213: -3564991657008624150
+    second: Background 1_461
+  - first:
+      213: 7861346766557741685
+    second: Background 1_462
+  - first:
+      213: -1999034179427385291
+    second: Background 1_463
+  - first:
+      213: 5208044852865898997
+    second: Background 1_464
+  - first:
+      213: -6974669550035465943
+    second: Background 1_465
+  - first:
+      213: -2594724938727035976
+    second: Background 1_466
+  - first:
+      213: 7420939782665191497
+    second: Background 1_467
+  - first:
+      213: 5631771231181371571
+    second: Background 1_468
+  - first:
+      213: -3762146222131552978
+    second: Background 1_469
+  - first:
+      213: -3022229986154366148
+    second: Background 1_470
+  - first:
+      213: -1722724221227111961
+    second: Background 1_471
+  - first:
+      213: 96915086054855889
+    second: Background 1_472
+  - first:
+      213: -4500109932250420793
+    second: Background 1_473
+  - first:
+      213: 8949174644915857146
+    second: Background 1_474
+  - first:
+      213: -6501936852953570559
+    second: Background 1_475
+  - first:
+      213: 4510631286501654842
+    second: Background 1_476
+  - first:
+      213: 6000190949999938958
+    second: Background 1_477
+  - first:
+      213: -6446171663509459305
+    second: Background 1_478
+  - first:
+      213: 4887591345258223608
+    second: Background 1_479
+  - first:
+      213: 3924617333369949148
+    second: Background 1_480
+  - first:
+      213: -4656657847493062907
+    second: Background 1_481
+  - first:
+      213: -1497061167836080713
+    second: Background 1_482
+  - first:
+      213: 4688007639935209013
+    second: Background 1_483
+  - first:
+      213: 3289719755520197986
+    second: Background 1_484
+  - first:
+      213: 5743649339858443701
+    second: Background 1_485
+  - first:
+      213: -7419378522490601189
+    second: Background 1_486
+  - first:
+      213: 8309786753233355218
+    second: Background 1_487
+  - first:
+      213: 5797577289610277668
+    second: Background 1_488
+  - first:
+      213: 2565498717694082800
+    second: Background 1_489
+  - first:
+      213: 2896656509408225641
+    second: Background 1_490
+  - first:
+      213: -6753065415032289698
+    second: Background 1_491
+  - first:
+      213: -7499286396511401761
+    second: Background 1_492
+  - first:
+      213: 7295294713456711310
+    second: Background 1_493
+  - first:
+      213: 5571249339582099438
+    second: Background 1_494
+  - first:
+      213: -4766563583375303945
+    second: Background 1_495
+  - first:
+      213: 1429536075276041735
+    second: Background 1_496
+  - first:
+      213: -1699458184457638541
+    second: Background 1_497
+  - first:
+      213: -1061942169035233111
+    second: Background 1_498
+  - first:
+      213: -7865208862695362115
+    second: Background 1_499
+  - first:
+      213: -1940201675827737233
+    second: Background 1_500
+  - first:
+      213: 2946259263178697664
+    second: Background 1_501
+  - first:
+      213: -5098779783994312771
+    second: Background 1_502
+  - first:
+      213: -2939128844866232781
+    second: Background 1_503
+  - first:
+      213: -2051232957589871716
+    second: Background 1_504
+  - first:
+      213: 1459116258801988788
+    second: Background 1_505
+  - first:
+      213: 2632190904874976306
+    second: Background 1_506
+  - first:
+      213: 3151870933725395191
+    second: Background 1_507
+  - first:
+      213: 3711934062330416791
+    second: Background 1_508
+  - first:
+      213: -6609324736832422862
+    second: Background 1_509
+  - first:
+      213: -442582376938569344
+    second: Background 1_510
+  - first:
+      213: 4908123851054315311
+    second: Background 1_511
+  - first:
+      213: 1255037000899534081
+    second: Background 1_512
+  - first:
+      213: 8249790435555924702
+    second: Background 1_513
+  - first:
+      213: 8641654694947686173
+    second: Background 1_514
+  - first:
+      213: 7394187665193269939
+    second: Background 1_515
+  - first:
+      213: -2679095971239796674
+    second: Background 1_516
+  - first:
+      213: 4281583846473387546
+    second: Background 1_517
+  - first:
+      213: 8011607835246515657
+    second: Background 1_518
+  - first:
+      213: 4372923593048825219
+    second: Background 1_519
+  - first:
+      213: -8492475110312954572
+    second: Background 1_520
+  - first:
+      213: 3636033228863210764
+    second: Background 1_521
+  - first:
+      213: 5647624495653170806
+    second: Background 1_522
+  - first:
+      213: -1975571779274623568
+    second: Background 1_523
+  - first:
+      213: 4019882326905821503
+    second: Background 1_524
+  - first:
+      213: -37023858862445460
+    second: Background 1_525
+  - first:
+      213: -7587122629708279098
+    second: Background 1_526
+  - first:
+      213: -3139873508240259875
+    second: Background 1_527
+  - first:
+      213: -8248890349076768897
+    second: Background 1_528
+  - first:
+      213: -211112473414433110
+    second: Background 1_529
+  - first:
+      213: 3193245084852819248
+    second: Background 1_530
+  - first:
+      213: -8514202963536779924
+    second: Background 1_531
+  - first:
+      213: -8609675803046101013
+    second: Background 1_532
+  - first:
+      213: 4157954046638584327
+    second: Background 1_533
+  - first:
+      213: 7895020224966249092
+    second: Background 1_534
+  - first:
+      213: -5808764611955024931
+    second: Background 1_535
+  - first:
+      213: -3794772317995212771
+    second: Background 1_536
+  - first:
+      213: 1257567770379520384
+    second: Background 1_537
+  - first:
+      213: 655803176329986556
+    second: Background 1_538
+  - first:
+      213: -4756931003725406036
+    second: Background 1_539
+  - first:
+      213: -1330788571037507546
+    second: Background 1_540
+  - first:
+      213: -7966014344088861703
+    second: Background 1_541
+  - first:
+      213: -4743071870213361893
+    second: Background 1_542
+  - first:
+      213: -7068422694511249834
+    second: Background 1_543
+  - first:
+      213: -5101400779649964646
+    second: Background 1_544
+  - first:
+      213: 562365722010182538
+    second: Background 1_545
+  - first:
+      213: 2734953017450836154
+    second: Background 1_546
+  - first:
+      213: 4627455847144323366
+    second: Background 1_547
+  - first:
+      213: -3545008874343046218
+    second: Background 1_548
+  - first:
+      213: 6403591175339494135
+    second: Background 1_549
+  - first:
+      213: -1892848541359691683
+    second: Background 1_550
+  - first:
+      213: 6652211959096625615
+    second: Background 1_551
+  - first:
+      213: -488125361292794585
+    second: Background 1_552
+  - first:
+      213: 1220125365218697986
+    second: Background 1_553
+  - first:
+      213: 2500150297869124523
+    second: Background 1_554
+  - first:
+      213: -7703409024949335575
+    second: Background 1_555
+  - first:
+      213: 6261508886257453548
+    second: Background 1_556
+  - first:
+      213: -8368717492696429516
+    second: Background 1_557
+  - first:
+      213: -5387362497988749612
+    second: Background 1_558
+  - first:
+      213: -550352775650377478
+    second: Background 1_559
+  - first:
+      213: 5955659884868133295
+    second: Background 1_560
+  - first:
+      213: 2404136164790139270
+    second: Background 1_561
+  - first:
+      213: -4533427543464469408
+    second: Background 1_562
+  - first:
+      213: -5215627974317152736
+    second: Background 1_563
+  - first:
+      213: -5531568659127339197
+    second: Background 1_564
+  - first:
+      213: 8639363929085983807
+    second: Background 1_565
+  - first:
+      213: -548876686386573608
+    second: Background 1_566
+  - first:
+      213: 8397209577124969834
+    second: Background 1_567
+  - first:
+      213: -3765759229522890071
+    second: Background 1_568
+  - first:
+      213: 1589634099132072689
+    second: Background 1_569
+  - first:
+      213: 2529264274509330008
+    second: Background 1_570
+  - first:
+      213: -6110254638934166059
+    second: Background 1_571
+  - first:
+      213: -5179018197067049885
+    second: Background 1_572
+  - first:
+      213: -3408856691167161971
+    second: Background 1_573
+  - first:
+      213: 5705794627290838028
+    second: Background 1_574
+  - first:
+      213: -3942120374252332413
+    second: Background 1_575
+  - first:
+      213: -1963890397600624692
+    second: Background 1_576
+  - first:
+      213: -3112961251603253453
+    second: Background 1_577
+  - first:
+      213: 1928880936438694540
+    second: Background 1_578
+  - first:
+      213: 8104172263235547946
+    second: Background 1_579
+  - first:
+      213: 8567987117169687719
+    second: Background 1_580
+  - first:
+      213: -4885837268532127951
+    second: Background 1_581
+  - first:
+      213: 6022355443379675375
+    second: Background 1_582
+  - first:
+      213: 7303363585846554887
+    second: Background 1_583
+  - first:
+      213: -2358084512652453412
+    second: Background 1_584
+  - first:
+      213: -6110360461557702184
+    second: Background 1_585
+  - first:
+      213: -982939293392929065
+    second: Background 1_586
+  - first:
+      213: -1851980847528991577
+    second: Background 1_587
+  - first:
+      213: -2215860825180600759
+    second: Background 1_588
+  - first:
+      213: -8009201587349530963
+    second: Background 1_589
+  - first:
+      213: -6695015083050845186
+    second: Background 1_590
+  - first:
+      213: -6188805492322322672
+    second: Background 1_591
+  - first:
+      213: -9007576888578974249
+    second: Background 1_592
+  - first:
+      213: -5510849350695397134
+    second: Background 1_593
+  - first:
+      213: -123287480850686174
+    second: Background 1_594
+  - first:
+      213: 1092871431112463609
+    second: Background 1_595
+  - first:
+      213: 6039556557262785814
+    second: Background 1_596
+  - first:
+      213: 6342057749165103601
+    second: Background 1_597
+  - first:
+      213: -7485446176749899666
+    second: Background 1_598
+  - first:
+      213: -656926881291650635
+    second: Background 1_599
+  - first:
+      213: -9060008120340183700
+    second: Background 1_600
+  - first:
+      213: -1555912854498872303
+    second: Background 1_601
+  - first:
+      213: -8885025754626369700
+    second: Background 1_602
+  - first:
+      213: 5661747175766249890
+    second: Background 1_603
+  - first:
+      213: 6050275052727161074
+    second: Background 1_604
+  - first:
+      213: 9036839588986486305
+    second: Background 1_605
+  - first:
+      213: -1242187936095860428
+    second: Background 1_606
+  - first:
+      213: -4080569540160941831
+    second: Background 1_607
+  - first:
+      213: -6406362732406856319
+    second: Background 1_608
+  - first:
+      213: -6507936155506338563
+    second: Background 1_609
+  - first:
+      213: 2168668340125678334
+    second: Background 1_610
+  - first:
+      213: -5782142633703971070
+    second: Background 1_611
+  - first:
+      213: -1365338708734463484
+    second: Background 1_612
+  - first:
+      213: 3873644950845915579
+    second: Background 1_613
+  - first:
+      213: 3706043924450086487
+    second: Background 1_614
+  - first:
+      213: -4784180165630578549
+    second: Background 1_615
+  - first:
+      213: 3078923120931476654
+    second: Background 1_616
+  - first:
+      213: 5077172067605885317
+    second: Background 1_617
+  - first:
+      213: -196785346027126190
+    second: Background 1_618
+  - first:
+      213: -6042455170835398669
+    second: Background 1_619
+  - first:
+      213: 7853092354511661041
+    second: Background 1_620
+  - first:
+      213: -7325750769590221429
+    second: Background 1_621
+  - first:
+      213: -7649555145342979711
+    second: Background 1_622
+  - first:
+      213: 953467483093023323
+    second: Background 1_623
+  - first:
+      213: -3149157784041677225
+    second: Background 1_624
+  - first:
+      213: 3754409387528841189
+    second: Background 1_625
+  - first:
+      213: 4064925157759581303
+    second: Background 1_626
+  - first:
+      213: -1662307818201663040
+    second: Background 1_627
+  - first:
+      213: -7102913430288295536
+    second: Background 1_628
+  - first:
+      213: -6540347031187017420
+    second: Background 1_629
+  - first:
+      213: -5372418696135411790
+    second: Background 1_630
+  - first:
+      213: 2650243232523481152
+    second: Background 1_631
+  - first:
+      213: 5959245798833875902
+    second: Background 1_632
+  - first:
+      213: 2999768722657912528
+    second: Background 1_633
+  - first:
+      213: -429133974413459260
+    second: Background 1_634
+  - first:
+      213: -6310539309975213159
+    second: Background 1_635
+  - first:
+      213: -3613202450801233464
+    second: Background 1_636
+  - first:
+      213: -8962848409898319620
+    second: Background 1_637
+  - first:
+      213: 7130120928466470673
+    second: Background 1_638
+  - first:
+      213: -707065426977779078
+    second: Background 1_639
+  - first:
+      213: 4979009306488854028
+    second: Background 1_640
+  - first:
+      213: -8424596918789313620
+    second: Background 1_641
+  - first:
+      213: -1871314933231982795
+    second: Background 1_642
+  - first:
+      213: -8281773944115304513
+    second: Background 1_643
+  - first:
+      213: 9089927287016052490
+    second: Background 1_644
+  - first:
+      213: -5237813761108548910
+    second: Background 1_645
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Background 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1104
+        width: 1242
+        height: 1104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a572da9ac62e390800000000000000
+      internalID: -7790544929387226549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background 1_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1242
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 221}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd54c1475a2689da0800000000000000
+      internalID: -5937887645930863140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

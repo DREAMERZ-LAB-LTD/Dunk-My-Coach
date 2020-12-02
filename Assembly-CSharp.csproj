@@ -97,8 +97,8 @@
     <Compile Include="Assets\UnitySpriteCutter\Tools\RendererParametersRepresentation.cs" />
     <Compile Include="Assets\UnitySpriteCutter\Tools\SafeSpriteRendererRemoverBehaviour.cs" />
     <Compile Include="Assets\UnitySpriteCutter\Tools\SpriteMeshContructor.cs" />
-    <Compile Include="Assets\UnitySpriteCutterExample\LinecastCutter.cs" />
-    <Compile Include="Assets\UnitySpriteCutterExample\MouseInputRepresentationBehaviour.cs" />
+    <Compile Include="Assets\UnitySpriteCutter\UnitySpriteCutterExample\LinecastCutter.cs" />
+    <Compile Include="Assets\UnitySpriteCutter\UnitySpriteCutterExample\MouseInputRepresentationBehaviour.cs" />
     <Compile Include="Assets\Water2D\Core\MetaballCameraEffect.cs" />
     <Compile Include="Assets\Water2D\Core\MetaballParticleClass.cs" />
     <Compile Include="Assets\Water2D\Core\Water2D_Spawner.cs" />
@@ -322,15 +322,6 @@
     </Reference>
     <Reference Include="DOTween">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -689,32 +680,11 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Monetization">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.multiplayer-hlapi.Editor">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Recorder.Editor">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Recorder">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
@@ -722,20 +692,8 @@
     <Reference Include="Unity.Timeline">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.multiplayer-weaver.Editor">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Recorder.Base">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/Unity.Recorder.Base.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
@@ -752,23 +710,14 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements.Editor">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.multiplayer-hlapi.Runtime">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
