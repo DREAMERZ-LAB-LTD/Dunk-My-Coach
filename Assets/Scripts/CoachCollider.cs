@@ -7,43 +7,44 @@ using DG.Tweening;
 public class CoachCollider : MonoBehaviour
 {
     [SerializeField] Animator animator;
+    [SerializeField] string animTriggerIdle = "stage1 Idle";
+    [SerializeField] string animTriggerWet = "wet";
+    [SerializeField] string animTriggerAfterFall = "After fall";
     bool wet = false;
-    float delay = 2;
+    float delay = 1.5f;
     public bool won = false;
     [SerializeField] Transform levelCompletionUI;
     [SerializeField] ParticleSystem particle;
     [SerializeField] GameObject collisionParticle;
+    [SerializeField] Material postWinCoachMaterial;
+    [SerializeField] SkinnedMeshRenderer coachRenderer;
+    [SerializeField] bool winWithWater = true;
 
-    //// Start is called before the first frame update
-    //void Start()
-    //{
-    //    StartCoroutine(RandomColliderPosition());
-    //}
+    [SerializeField] List<AudioClip> onceImmediateAfterWet = new List<AudioClip>();
+    [SerializeField] List<AudioClip> wetSoundOnce = new List<AudioClip>();
 
-    //IEnumerator RandomColliderPosition()
-    //{
-    //    yield return new WaitForSeconds(Random.Range(0.1f, 0.5f));
-    //    Vector2 offset = GetComponent<CapsuleCollider2D>().offset;
-    //    offset.x = Random.Range(-0.2f, 0.2f);
-    //    GetComponent<CapsuleCollider2D>().offset = offset;
-    //    StartCoroutine(RandomColliderPosition());
-    //}
+    void Start()
+    {
+        animator.SetTrigger(animTriggerIdle);
+    }
+
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col) { 
-        GameObject c = Instantiate(collisionParticle, col.transform.position, Quaternion.identity);
-        c.GetComponent<ParticleSystem>().Play();
-            }
+        if (col)
+        {
+            GameObject c = Instantiate(collisionParticle, col.transform.position, Quaternion.identity);
+            c.GetComponent<ParticleSystem>().Play();
+        }
         if (wet)
             return;
 
-        particle.Play();
+        if (particle) particle.Play();
+        Invoke("ChangeMaterial", 0.5f);
 
-        if (col.transform.CompareTag("Metaball_liquid"))
+        if (col.transform.CompareTag("Metaball_liquid") && winWithWater)
         {
             wet = true;
-            Debug.Log("wet");
-            animator.SetTrigger("Wet");
+            animator.SetTrigger(animTriggerWet);
         }
     }
 
@@ -55,20 +56,54 @@ public class CoachCollider : MonoBehaviour
                 delay -= Time.deltaTime;
             else
             {
-                if (!won)
-                {
-                    animator.SetTrigger("After fall");
-                    won = true;
-                    levelCompletionUI.gameObject.SetActive(true);
-                    levelCompletionUI.localScale = Vector3.zero;
-                    levelCompletionUI.DOScale(1, 1);
-                    //Invoke("LoadNextScene", 4);
-                }
+                LevelCompletedAnimation();
+
             }
         }
     }
-    //void LoadNextScene()
-    //{
-    //    SceneManager.LoadScene(nextSceneName);
-    //}
+
+    public void LevelCompletedAnimation()
+    {
+        if (!won)
+        {
+            won = true;
+            if (GetComponent<AudioSource>())
+            {
+                GetComponent<AudioSource>().Stop();
+                for (int i = 0; i < onceImmediateAfterWet.Count; i++)
+                {
+                    GetComponent<AudioSource>().PlayOneShot(onceImmediateAfterWet[i]);
+                }
+            }
+
+            Debug.Log("called ");
+            if (!string.IsNullOrEmpty(animTriggerAfterFall))
+                animator.SetTrigger(animTriggerAfterFall);
+
+            LevelCompleted();
+        }
+    }
+
+    public void LevelCompleted()
+    {
+
+        if (GetComponent<AudioSource>())
+        {
+            GetComponent<AudioSource>().Stop();
+            for (int i = 0; i < wetSoundOnce.Count; i++)
+            {
+                GetComponent<AudioSource>().PlayOneShot(wetSoundOnce[i]);
+            }
+        }
+
+        levelCompletionUI.gameObject.SetActive(true);
+        levelCompletionUI.localScale = Vector3.zero;
+        levelCompletionUI.DOScale(1, 1);
+    }
+
+    void ChangeMaterial()
+    {
+        if (postWinCoachMaterial != null)
+            coachRenderer.material = postWinCoachMaterial;
+    }
 }

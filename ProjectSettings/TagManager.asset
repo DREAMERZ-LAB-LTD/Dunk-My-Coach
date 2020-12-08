@@ -19,9 +19,9 @@ TagManager:
   - CollideWithCuttableOnly
   - RedWater
   - Cuttable
-  - 
-  - 
-  - 
+  - NotCollideWithCuttable
+  - NoCollision
+  - thirdWater
   - 
   - 
   - 

@@ -1,12 +1,48 @@
 fileFormatVersion: 2
 guid: 3725d7d725b944f4d9ab2701d6f2ebee
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -4930298172773329541
+    second: Stage-3-2D-Assets_0
+  - first:
+      213: 6925572258580299779
+    second: Stage-3-2D-Assets_1
+  - first:
+      213: 4920741128710951347
+    second: Stage-3-2D-Assets_2
+  - first:
+      213: -6862353655412035633
+    second: Stage-3-2D-Assets_3
+  - first:
+      213: 8076517117741993614
+    second: Stage-3-2D-Assets_4
+  - first:
+      213: -2197502162664997063
+    second: Stage-3-2D-Assets_5
+  - first:
+      213: 2232642457179992392
+    second: Stage-3-2D-Assets_6
+  - first:
+      213: -1790258534662906598
+    second: Stage-3-2D-Assets_7
+  - first:
+      213: -4278056469607442114
+    second: Stage-3-2D-Assets_8
+  - first:
+      213: 3499634032228701015
+    second: Stage-3-2D-Assets_9
+  - first:
+      213: 5314103642127493678
+    second: Stage-3-2D-Assets_10
+  - first:
+      213: 4450295105587707174
+    second: Stage-3-2D-Assets_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,13 +70,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,9 +85,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -71,13 +107,289 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Stage-3-2D-Assets_0
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1634
+        width: 45
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7596170fef049bb0800000000000000
+      internalID: -4930298172773329541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage-3-2D-Assets_1
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1632
+        width: 47
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3008af2a6439c1060800000000000000
+      internalID: 6925572258580299779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage-3-2D-Assets_2
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1633
+        width: 46
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b198704cfbf94440800000000000000
+      internalID: 4920741128710951347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage-3-2D-Assets_3
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1633
+        width: 47
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcfef0e65b504c0a0800000000000000
+      internalID: -6862353655412035633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage-3-2D-Assets_4
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1632
+        width: 46
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e8f51078d851070800000000000000
+      internalID: 8076517117741993614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage-3-2D-Assets_5
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1632
+        width: 44
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f33390d67e081e0800000000000000
+      internalID: -2197502162664997063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage-3-2D-Assets_6
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1330
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8413baa5c70fbfe10800000000000000
+      internalID: 2232642457179992392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage-3-2D-Assets_7
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1199
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d5e411959b727e0800000000000000
+      internalID: -1790258534662906598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage-3-2D-Assets_8
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 1051
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e399cf79e4a41a4c0800000000000000
+      internalID: -4278056469607442114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage-3-2D-Assets_9
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1410
+        width: 184
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7531cd64c92319030800000000000000
+      internalID: 3499634032228701015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage-3-2D-Assets_10
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1276
+        width: 170
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a6e907b1d7fb940800000000000000
+      internalID: 5314103642127493678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage-3-2D-Assets_11
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 1130
+        width: 160
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62df632e1df92cd30800000000000000
+      internalID: 4450295105587707174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8fd0d3f650b1a8348bc69e97259b1ff2
     internalID: 0
     vertices: []
     indices: 
