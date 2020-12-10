@@ -11,6 +11,7 @@ public class Mixer : MonoBehaviour
     [SerializeField] MetaballCameraEffect mat1;
     [SerializeField] MetaballCameraEffect mat2;
     [SerializeField] Color mixedColor;
+    [SerializeField] Color mixedOutlineColor;
     [SerializeField] public int minCount;
     [SerializeField] LayerMask cuttableLayerMask;
     [SerializeField] GameObject wood;
@@ -53,9 +54,24 @@ public class Mixer : MonoBehaviour
         Material one = new Material(mat1.cutOutMaterial);
         one.DOColor(mixedColor, 1);
         mat1.cutOutMaterial = one;
+        StartCoroutine(SwapOutline(one));
 
         Material two = new Material(mat2.cutOutMaterial);
         two.DOColor(mixedColor, 1);
         mat2.cutOutMaterial = two;
+        StartCoroutine(SwapOutline(two));
+    }
+
+    IEnumerator SwapOutline(Material mat)
+    {
+        Color first = mat.GetColor("_StrokeColor");
+        float ElapsedTime = 0.0f;
+        float TotalTime = 2.0f;
+        while (ElapsedTime < TotalTime)
+        {
+            ElapsedTime += Time.deltaTime;
+            mat.SetColor("_StrokeColor", Color.Lerp(first, mixedOutlineColor, (ElapsedTime / TotalTime)));
+            yield return null;
+        }
     }
 }

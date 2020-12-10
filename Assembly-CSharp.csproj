@@ -92,6 +92,7 @@
     <Compile Include="Assets\Scripts\SwitchAnimation.cs" />
     <Compile Include="Assets\Scripts\WaterFlowTrigger.cs" />
     <Compile Include="Assets\Scripts\WaterForce.cs" />
+    <Compile Include="Assets\SoundPlayer.cs" />
     <Compile Include="Assets\UnitySpriteCutter\Cutters\ColliderPathsCreator.cs" />
     <Compile Include="Assets\UnitySpriteCutter\Cutters\FlatConvexCollidersCutter.cs" />
     <Compile Include="Assets\UnitySpriteCutter\Cutters\FlatConvexPolygonMeshCutter.cs" />
@@ -683,9 +684,6 @@
     <Reference Include="Boo.Lang">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
@@ -697,9 +695,6 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>

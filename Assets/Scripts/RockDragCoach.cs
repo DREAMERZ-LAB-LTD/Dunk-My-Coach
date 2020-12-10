@@ -14,7 +14,7 @@ public class RockDragCoach : MonoBehaviour
         {
             GetComponent<AudioSource>().PlayOneShot(rip);
             col.gameObject.transform.SetParent(transform);
-            col.transform.DOLocalMove(new Vector3(-0.000235f, -0.00453f, 0), 0.1f);
+            col.transform.DOLocalMove(new Vector3(-0.000235f, -0.00453f, 0), 0.25f);
         }
     }
 }

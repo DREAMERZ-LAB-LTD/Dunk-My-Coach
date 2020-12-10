@@ -205,10 +205,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 2
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 2
+  m_AngularDrag: 0.1
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -227,7 +227,7 @@ HingeJoint2D:
   m_ConnectedRigidBody: {fileID: 0}
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
-  m_AutoConfigureConnectedAnchor: 1
+  m_AutoConfigureConnectedAnchor: 0
   m_Anchor: {x: -9.567471, y: 0.14366272}
   m_ConnectedAnchor: {x: -0.95674706, y: 0.014366272}
   m_UseMotor: 0
@@ -237,7 +237,7 @@ HingeJoint2D:
   m_UseLimits: 0
   m_AngleLimits:
     m_LowerAngle: 0
-    m_UpperAngle: 359
+    m_UpperAngle: 70
 --- !u!114 &3063408499590074202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -251,10 +251,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joint: {fileID: 4598434360497065684}
-  hingeJoint: {fileID: 2137017766}
   leftAnchor:
     anchor: {x: -9.918223, y: -0.007274859}
     connectedAnchor: {x: -0.3517411, y: -0.0007274859}
-  rightAnchor:
-    anchor: {x: 9.918223, y: -0.4845877}
-    connectedAnchor: {x: 0.3471378, y: -0.4845877}
+  destroyBoth: 0

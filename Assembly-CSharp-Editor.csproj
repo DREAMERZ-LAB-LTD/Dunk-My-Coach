@@ -634,9 +634,6 @@
     <Reference Include="UnityEngine.TestRunner">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
@@ -648,9 +645,6 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>

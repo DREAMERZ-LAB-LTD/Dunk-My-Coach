@@ -37,7 +37,7 @@ public class LinecastCutter : MonoBehaviour
         }
 
 
-
+#if UNITY_EDITOR
         if (Input.GetMouseButtonDown(0))
         {
             mouseStart = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -46,11 +46,10 @@ public class LinecastCutter : MonoBehaviour
 
         if (Input.GetMouseButtonUp(0))
         {
-            mouseEnd = Camera.main.ScreenToWorldPoint(Input.mousePosition); 
-            GetComponent<AudioSource>().pitch = Random.Range(0.9f, 1.1f);
-            GetComponent<AudioSource>().PlayOneShot(cuttingSoundEffect, Random.Range(0.5f, 1f));
+            mouseEnd = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             LinecastCut(mouseStart, mouseEnd, layerMask.value);
         }
+#endif
     }
 
     void LinecastCut(Vector2 lineStart, Vector2 lineEnd, int layerMask = Physics2D.AllLayers)
@@ -63,6 +62,11 @@ public class LinecastCutter : MonoBehaviour
             {
                 gameObjectsToCut.Add(hit.transform.gameObject);
             }
+        }
+        if (gameObjectsToCut.Count > 0)
+        {
+            GetComponent<AudioSource>().pitch = Random.Range(0.9f, 1.1f);
+            GetComponent<AudioSource>().PlayOneShot(cuttingSoundEffect, Random.Range(0.5f, 1f));
         }
 
         foreach (GameObject go in gameObjectsToCut)
@@ -191,7 +195,7 @@ public class LinecastCutter : MonoBehaviour
         if (unimportant.GetComponent<MeshRenderer>())
             unimportant.GetComponent<MeshRenderer>().material.DOFade(0, 1f);
 
-        yield return new WaitForSeconds(0.1f);
+        //yield return new WaitForSeconds(0.1f);
 
         unimportant.layer = LayerMask.NameToLayer("NoCollision");
         yield return new WaitForSeconds(1f);

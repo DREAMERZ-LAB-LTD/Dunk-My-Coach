@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "R58N65HB8SD",
         "name": "com.DefaultCompany.Dunkmycoach",
-        "processId": 12788,
+        "processId": 11316,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -54,6 +54,36 @@
             "deviceId": "R58N65HB8SD",
             "name": "com.DefaultCompany.Dunkmycoach",
             "processId": 12788,
+            "exited": false
+        },
+        {
+            "deviceId": "R58N65HB8SD",
+            "name": "com.DefaultCompany.Dunkmycoach",
+            "processId": 14785,
+            "exited": true
+        },
+        {
+            "deviceId": "R58N65HB8SD",
+            "name": "com.DefaultCompany.Dunkmycoach",
+            "processId": 15273,
+            "exited": false
+        },
+        {
+            "deviceId": "R58N65HB8SD",
+            "name": "com.DefaultCompany.Dunkmycoach",
+            "processId": 17006,
+            "exited": true
+        },
+        {
+            "deviceId": "R58N65HB8SD",
+            "name": "com.DefaultCompany.Dunkmycoach",
+            "processId": 11053,
+            "exited": false
+        },
+        {
+            "deviceId": "R58N65HB8SD",
+            "name": "com.DefaultCompany.Dunkmycoach",
+            "processId": 11316,
             "exited": false
         }
     ],

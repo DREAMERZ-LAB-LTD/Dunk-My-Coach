@@ -8,7 +8,9 @@ public class HammerTrigger : MonoBehaviour
 {
     [SerializeField] SpriteRenderer iceBar;
     [SerializeField] Transform hammer;
-    [SerializeField] Rigidbody2D rock;
+    [SerializeField] Transform rock;
+    [SerializeField] float rockYPos = -8f;
+    [SerializeField] float rockYMoveTime = 1f;
     [SerializeField] float hitTime;
     [SerializeField] Vector3 hitRotation;
     [SerializeField] float pushbackTime;
@@ -18,6 +20,7 @@ public class HammerTrigger : MonoBehaviour
     [SerializeField] UnityEvent callAfterCompletion;
     bool triggeredAlready = false;
     [SerializeField] AudioClip iceBreak;
+    [SerializeField] float extraWaitTimeBeforeFall;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -44,13 +47,17 @@ public class HammerTrigger : MonoBehaviour
         hammer.DORotate(hitRotation, hitTime, RotateMode.FastBeyond360);
         yield return new WaitForSeconds(hitTime);
         iceBar.DOFade(0, 1);
-        GetComponent<AudioSource>().PlayOneShot(iceBreak);
+        if(iceBreak)GetComponent<AudioSource>().PlayOneShot(iceBreak);
+
         if (iceBar.gameObject.GetComponent<Rigidbody2D>())
             iceBar.gameObject.GetComponent<BoxCollider2D>().enabled = false;
+
         hammer.DORotate(pushbackRotation, pushbackTime);
         callAfterCompletion.Invoke();
         yield return new WaitForSeconds(pushbackTime);
-        rock.isKinematic = false;
+        yield return new WaitForSeconds(extraWaitTimeBeforeFall);
+        //rock.isKinematic = false;
+        rock?.DOMoveY(rockYPos, rockYMoveTime);
         hammer.DORotate(idleRotation, idleTime);
         yield return new WaitForSeconds(idleTime);
     }

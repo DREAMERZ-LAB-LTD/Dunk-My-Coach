@@ -5692,6 +5692,11 @@ MonoBehaviour:
   levelCompletionUI: {fileID: 0}
   particle: {fileID: 5888197318737200903}
   collisionParticle: {fileID: 538481022}
+  postWinCoachMaterial: {fileID: 0}
+  coachRenderer: {fileID: 2480918925318661249}
+  winWithWater: 1
+  onceImmediateAfterWet: []
+  wetSoundOnce: []
 --- !u!1 &6915480897718390031
 GameObject:
   m_ObjectHideFlags: 0
@@ -6247,15 +6252,21 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ff49368f24fe3f643b54b765f59ab6a8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f088151b9c9839540b64c3ff2aa1ba5f, type: 3}
---- !u!1 &8246078208864570721 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f088151b9c9839540b64c3ff2aa1ba5f,
+--- !u!137 &2480918925318661249 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6684295394808222897, guid: f088151b9c9839540b64c3ff2aa1ba5f,
     type: 3}
   m_PrefabInstance: {fileID: 9128406809969389616}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &8729142506803304411 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f088151b9c9839540b64c3ff2aa1ba5f,
+    type: 3}
+  m_PrefabInstance: {fileID: 9128406809969389616}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8246078208864570721 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f088151b9c9839540b64c3ff2aa1ba5f,
     type: 3}
   m_PrefabInstance: {fileID: 9128406809969389616}
   m_PrefabAsset: {fileID: 0}

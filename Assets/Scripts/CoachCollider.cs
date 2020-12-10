@@ -23,6 +23,8 @@ public class CoachCollider : MonoBehaviour
     [SerializeField] List<AudioClip> onceImmediateAfterWet = new List<AudioClip>();
     [SerializeField] List<AudioClip> wetSoundOnce = new List<AudioClip>();
 
+    [SerializeField] float loadDelay = 0;
+
     void Start()
     {
         animator.SetTrigger(animTriggerIdle);
@@ -30,7 +32,7 @@ public class CoachCollider : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col)
+        if (col && collisionParticle)
         {
             GameObject c = Instantiate(collisionParticle, col.transform.position, Quaternion.identity);
             c.GetComponent<ParticleSystem>().Play();
@@ -39,8 +41,14 @@ public class CoachCollider : MonoBehaviour
             return;
 
         if (particle) particle.Play();
-        Invoke("ChangeMaterial", 0.5f);
-
+        Invoke("ChangeMaterial", 0.75f);
+        if (GetComponent<AudioSource>())
+        {
+            for (int i = 0; i < onceImmediateAfterWet.Count; i++)
+            {
+                GetComponent<AudioSource>().PlayOneShot(onceImmediateAfterWet[i]);
+            }
+        }
         if (col.transform.CompareTag("Metaball_liquid") && winWithWater)
         {
             wet = true;
@@ -57,7 +65,6 @@ public class CoachCollider : MonoBehaviour
             else
             {
                 LevelCompletedAnimation();
-
             }
         }
     }
@@ -67,14 +74,7 @@ public class CoachCollider : MonoBehaviour
         if (!won)
         {
             won = true;
-            if (GetComponent<AudioSource>())
-            {
-                GetComponent<AudioSource>().Stop();
-                for (int i = 0; i < onceImmediateAfterWet.Count; i++)
-                {
-                    GetComponent<AudioSource>().PlayOneShot(onceImmediateAfterWet[i]);
-                }
-            }
+
 
             Debug.Log("called ");
             if (!string.IsNullOrEmpty(animTriggerAfterFall))
@@ -86,16 +86,19 @@ public class CoachCollider : MonoBehaviour
 
     public void LevelCompleted()
     {
-
         if (GetComponent<AudioSource>())
         {
-            GetComponent<AudioSource>().Stop();
             for (int i = 0; i < wetSoundOnce.Count; i++)
             {
                 GetComponent<AudioSource>().PlayOneShot(wetSoundOnce[i]);
             }
         }
 
+        Invoke("UILoad", loadDelay);
+    }
+
+    private void UILoad()
+    {
         levelCompletionUI.gameObject.SetActive(true);
         levelCompletionUI.localScale = Vector3.zero;
         levelCompletionUI.DOScale(1, 1);
@@ -103,7 +106,12 @@ public class CoachCollider : MonoBehaviour
 
     void ChangeMaterial()
     {
+        Debug.Log("Test");
+
         if (postWinCoachMaterial != null)
+        {
             coachRenderer.material = postWinCoachMaterial;
+            Debug.Log("Test 2 " + postWinCoachMaterial + " " + coachRenderer.material);
+        }
     }
 }
