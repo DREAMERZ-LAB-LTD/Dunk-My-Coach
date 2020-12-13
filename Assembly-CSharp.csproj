@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scripts\ExitGame.cs" />
     <Compile Include="Assets\Scripts\HammerTrigger.cs" />
     <Compile Include="Assets\Scripts\KeyScript.cs" />
+    <Compile Include="Assets\Scripts\LionsKitAnaytics.cs" />
     <Compile Include="Assets\Scripts\LoadScene.cs" />
     <Compile Include="Assets\Scripts\Mixer.cs" />
     <Compile Include="Assets\Scripts\RandomMovementAnimation.cs" />
@@ -123,8 +124,10 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
+    <None Include="Assets\Adjust\Android\AdjustAndroidManifest.xml" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\JMO Assets\Cartoon FX\CartoonFX Free.txt" />
+    <None Include="Assets\LionStudios\GDPR\Resources\GDPR_Strings.txt" />
     <None Include="Assets\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Media\Shaders\Outline.shader" />
@@ -329,6 +332,15 @@
     </Reference>
     <Reference Include="DOTween">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="Win81Interface">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/PackageCache/com.lionstudios.release.lionkit@1.1.78/Adjust/Windows/Stubs/Win81Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="WinWsInterface">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/PackageCache/com.lionstudios.release.lionkit@1.1.78/Adjust/Windows/Stubs/WinWsInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="Win10Interface">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/PackageCache/com.lionstudios.release.lionkit@1.1.78/Adjust/Windows/Stubs/Win10Interface.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -725,6 +737,39 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="MaxSdk.Scripts">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/MaxSdk.Scripts.dll</HintPath>
+    </Reference>
+    <Reference Include="adjustEditor">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/adjustEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="lionKit.Editor">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/lionKit.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="MaxSdk.Scripts.Editor">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/MaxSdk.Scripts.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="adjust">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/adjust.dll</HintPath>
+    </Reference>
+    <Reference Include="adjustPurchase">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/adjustPurchase.dll</HintPath>
+    </Reference>
+    <Reference Include="AppLovinCrossPromo">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/AppLovinCrossPromo.dll</HintPath>
+    </Reference>
+    <Reference Include="MaxSdk.Scripts.IntegrationManager.Editor">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/MaxSdk.Scripts.IntegrationManager.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="lionKit">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/lionKit.dll</HintPath>
+    </Reference>
+    <Reference Include="Localization">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Editor">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/Facebook.Unity.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

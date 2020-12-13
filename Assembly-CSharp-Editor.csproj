@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\JMO Assets\Cartoon FX Easy Editor\Editor\CFXEasyEditor.cs" />
+    <None Include="Assets\MaxSdk\AppLovin\Editor\Dependencies.xml" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -270,6 +271,30 @@
     </Reference>
     <Reference Include="DOTweenEditor">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Win81Interface">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/PackageCache/com.lionstudios.release.lionkit@1.1.78/Adjust/Windows/Stubs/Win81Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="WinWsInterface">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/PackageCache/com.lionstudios.release.lionkit@1.1.78/Adjust/Windows/Stubs/WinWsInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.PackageManagerResolver_v1.2.160">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/PackageCache/com.google.external-dependency-manager@1.2.160/ExternalDependencyManager/Editor/Google.PackageManagerResolver_v1.2.160.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandler">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/PackageCache/com.google.external-dependency-manager@1.2.160/ExternalDependencyManager/Editor/Google.VersionHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.IOSResolver_v1.2.160">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/PackageCache/com.google.external-dependency-manager@1.2.160/ExternalDependencyManager/Editor/Google.IOSResolver_v1.2.160.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandlerImpl_v1.2.160">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/PackageCache/com.google.external-dependency-manager@1.2.160/ExternalDependencyManager/Editor/Google.VersionHandlerImpl_v1.2.160.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.JarResolver_v1.2.160">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/PackageCache/com.google.external-dependency-manager@1.2.160/ExternalDependencyManager/Editor/Google.JarResolver_v1.2.160.dll</HintPath>
+    </Reference>
+    <Reference Include="Win10Interface">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/PackageCache/com.lionstudios.release.lionkit@1.1.78/Adjust/Windows/Stubs/Win10Interface.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
@@ -675,6 +700,39 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="MaxSdk.Scripts">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/MaxSdk.Scripts.dll</HintPath>
+    </Reference>
+    <Reference Include="adjustEditor">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/adjustEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="lionKit.Editor">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/lionKit.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="MaxSdk.Scripts.Editor">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/MaxSdk.Scripts.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="adjust">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/adjust.dll</HintPath>
+    </Reference>
+    <Reference Include="adjustPurchase">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/adjustPurchase.dll</HintPath>
+    </Reference>
+    <Reference Include="AppLovinCrossPromo">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/AppLovinCrossPromo.dll</HintPath>
+    </Reference>
+    <Reference Include="MaxSdk.Scripts.IntegrationManager.Editor">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/MaxSdk.Scripts.IntegrationManager.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="lionKit">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/lionKit.dll</HintPath>
+    </Reference>
+    <Reference Include="Localization">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Editor">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/Facebook.Unity.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
