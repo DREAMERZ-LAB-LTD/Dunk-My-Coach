@@ -2,9 +2,9 @@
     "m_SelectedDeviceId": "R58N65HB8SD",
     "m_SelectedPackage": {
         "deviceId": "R58N65HB8SD",
-        "name": "com.DefaultCompany.Dunkmycoach",
-        "processId": 11316,
-        "exited": false
+        "name": "com.DreamerzLab.DunkMyNeighbor",
+        "processId": 26862,
+        "exited": true
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
@@ -85,6 +85,12 @@
             "name": "com.DefaultCompany.Dunkmycoach",
             "processId": 11316,
             "exited": false
+        },
+        {
+            "deviceId": "R58N65HB8SD",
+            "name": "com.DreamerzLab.DunkMyNeighbor",
+            "processId": 26862,
+            "exited": true
         }
     ],
     "m_Tags": {

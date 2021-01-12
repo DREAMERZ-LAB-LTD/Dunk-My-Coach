@@ -15,7 +15,6 @@ MonoBehaviour:
   _General:
     _InitLionKitOnLoad: 1
     _EnableAppReview: 0
-    _EnableInAppPurchase: 0
     _UseMultiDexSupport: 1
     _UseProGuard: 0
     _OverrideGradlePluginVersion: 0
@@ -59,13 +58,17 @@ MonoBehaviour:
     _AutoLogAppEventsEnabled: 1
   _Adjust:
     _Enabled: 1
-    _SandboxMode: 0
+    _SandboxMode: 2
     _iOSToken: 
-    _AndroidToken: 
+    _AndroidToken: z97hgilwkni8
   _Firebase:
     _Enabled: 0
     _RegisterForStandardEvents: 0
     _RegisterForUAEvents: 1
+  _InAppPurchase:
+    _Enabled: 0
+    _ValidatePurchases: 0
+    _AllowRestorePurchases: 0
   _Debugging:
     _EnableDebugger: 1
     _ShowAtStartup: 1
