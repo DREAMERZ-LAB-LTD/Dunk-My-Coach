@@ -18,6 +18,4 @@ public class LionsKitAnaytics : MonoBehaviour
     {
         Analytics.Events.LevelComplete(SceneManager.GetActiveScene());
     }
-
-
 }

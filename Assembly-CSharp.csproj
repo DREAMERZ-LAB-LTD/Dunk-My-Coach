@@ -333,14 +333,14 @@
     <Reference Include="DOTween">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
-    <Reference Include="Win10Interface">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/PackageCache/com.lionstudios.release.lionkit@1.2.0/Adjust/Windows/Stubs/Win10Interface.dll</HintPath>
-    </Reference>
     <Reference Include="Win81Interface">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/PackageCache/com.lionstudios.release.lionkit@1.2.0/Adjust/Windows/Stubs/Win81Interface.dll</HintPath>
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/PackageCache/com.lionstudios.release.lionkit@1.2.2/Adjust/Windows/Stubs/Win81Interface.dll</HintPath>
     </Reference>
     <Reference Include="WinWsInterface">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/PackageCache/com.lionstudios.release.lionkit@1.2.0/Adjust/Windows/Stubs/WinWsInterface.dll</HintPath>
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/PackageCache/com.lionstudios.release.lionkit@1.2.2/Adjust/Windows/Stubs/WinWsInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="Win10Interface">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/PackageCache/com.lionstudios.release.lionkit@1.2.2/Adjust/Windows/Stubs/Win10Interface.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -699,29 +699,11 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="MaxSdk.Scripts">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/MaxSdk.Scripts.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="adjustEditor">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/adjustEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="lionKit.Editor">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/lionKit.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="MaxSdk.Scripts.Editor">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/MaxSdk.Scripts.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="adjust">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/adjust.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Recorder.Editor">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="adjustPurchase">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/adjustPurchase.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -738,20 +720,8 @@
     <Reference Include="Unity.Timeline">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
-    <Reference Include="AppLovinCrossPromo">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/AppLovinCrossPromo.dll</HintPath>
-    </Reference>
-    <Reference Include="MaxSdk.Scripts.IntegrationManager.Editor">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/MaxSdk.Scripts.IntegrationManager.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="lionKit">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/lionKit.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="Localization">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/Localization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Recorder.Base">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/Unity.Recorder.Base.dll</HintPath>
@@ -768,9 +738,6 @@
     <Reference Include="Unity.2D.Tilemap.Editor">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="LionStudios.Facebook.Unity.Editor">
-      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/LionStudios.Facebook.Unity.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
@@ -785,6 +752,39 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="MaxSdk.Scripts">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/MaxSdk.Scripts.dll</HintPath>
+    </Reference>
+    <Reference Include="adjustEditor">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/adjustEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="lionKit.Editor">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/lionKit.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="MaxSdk.Scripts.Editor">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/MaxSdk.Scripts.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="adjust">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/adjust.dll</HintPath>
+    </Reference>
+    <Reference Include="adjustPurchase">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/adjustPurchase.dll</HintPath>
+    </Reference>
+    <Reference Include="AppLovinCrossPromo">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/AppLovinCrossPromo.dll</HintPath>
+    </Reference>
+    <Reference Include="MaxSdk.Scripts.IntegrationManager.Editor">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/MaxSdk.Scripts.IntegrationManager.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="lionKit">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/lionKit.dll</HintPath>
+    </Reference>
+    <Reference Include="Localization">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="LionStudios.Facebook.Unity.Editor">
+      <HintPath>C:/Users/Ferdowsur/Documents/Dunk-My-Coach/Library/ScriptAssemblies/LionStudios.Facebook.Unity.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
