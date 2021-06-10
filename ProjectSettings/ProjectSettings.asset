@@ -126,7 +126,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.0.7
+  bundleVersion: 1.0.8
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -174,8 +174,8 @@ PlayerSettings:
     Standalone: com.DreamerzLab.DunkMyNeighbour
   buildNumber:
     Standalone: 8
-  AndroidBundleVersionCode: 9
-  AndroidMinSdkVersion: 28
+  AndroidBundleVersionCode: 12
+  AndroidMinSdkVersion: 21
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
   aotOptions: 

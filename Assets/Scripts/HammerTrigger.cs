@@ -59,6 +59,10 @@ public class HammerTrigger : MonoBehaviour
         //rock.isKinematic = false;
         rock?.DOMoveY(rockYPos, rockYMoveTime);
         hammer.DORotate(idleRotation, idleTime);
-        yield return new WaitForSeconds(idleTime);
+       // yield return new WaitForSeconds(idleTime);
+
+      //  BoxCollider2D rockCollider = rock.GetComponent<BoxCollider2D>();
+       // if(rockCollider)
+       //     rockCollider.enabled = false;
     }
 }

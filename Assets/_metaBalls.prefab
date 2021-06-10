@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 22779726520979578}
   m_LocalRotation: {x: -0, y: -0, z: -0.3719367, w: 0.9282581}
   m_LocalPosition: {x: -0.23262788, y: 3.3122919, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 78
@@ -94,13 +94,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 22779726520979578}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &9174106379061297857
 Rigidbody2D:
   serializedVersion: 4
@@ -177,10 +177,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -273,7 +273,7 @@ Transform:
   m_GameObject: {fileID: 45799672041692148}
   m_LocalRotation: {x: -0, y: -0, z: -0.5001832, w: 0.86591965}
   m_LocalPosition: {x: 0.23334382, y: 3.2023153, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 38
@@ -337,13 +337,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 45799672041692148}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &2283181792956429509
 Rigidbody2D:
   serializedVersion: 4
@@ -420,10 +420,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -516,7 +516,7 @@ Transform:
   m_GameObject: {fileID: 79638615181673552}
   m_LocalRotation: {x: -0, y: -0, z: 0.2055465, w: -0.97864735}
   m_LocalPosition: {x: -0.7964861, y: 2.905108, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 128
@@ -663,10 +663,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -759,7 +759,7 @@ Transform:
   m_GameObject: {fileID: 99276696279700783}
   m_LocalRotation: {x: -0, y: -0, z: 0.9975479, w: -0.06998695}
   m_LocalPosition: {x: -0.34536117, y: 3.1033034, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 136
@@ -906,10 +906,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -1002,7 +1002,7 @@ Transform:
   m_GameObject: {fileID: 130695451904390872}
   m_LocalRotation: {x: -0, y: -0, z: -0.17981263, w: 0.9837009}
   m_LocalPosition: {x: -0.6067724, y: 2.911795, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 107
@@ -1149,10 +1149,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -1245,7 +1245,7 @@ Transform:
   m_GameObject: {fileID: 303027041797945744}
   m_LocalRotation: {x: 0, y: -0, z: -0.0317505, w: -0.99949586}
   m_LocalPosition: {x: 0.3217471, y: 3.156993, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 47
@@ -1309,13 +1309,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 303027041797945744}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &5767985977219662023
 Rigidbody2D:
   serializedVersion: 4
@@ -1392,10 +1392,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -1488,7 +1488,7 @@ Transform:
   m_GameObject: {fileID: 381875218941080337}
   m_LocalRotation: {x: -0, y: -0, z: 0.31197456, w: 0.9500905}
   m_LocalPosition: {x: 0.6954209, y: 3.239844, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 141
@@ -1635,10 +1635,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -1731,7 +1731,7 @@ Transform:
   m_GameObject: {fileID: 392577861190145943}
   m_LocalRotation: {x: -0, y: -0, z: 0.31197456, w: 0.9500905}
   m_LocalPosition: {x: 0.6954209, y: 3.239844, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 41
@@ -1795,13 +1795,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 392577861190145943}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &3510486808867385630
 Rigidbody2D:
   serializedVersion: 4
@@ -1878,10 +1878,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -1974,7 +1974,7 @@ Transform:
   m_GameObject: {fileID: 402405378724797984}
   m_LocalRotation: {x: -0, y: -0, z: 0.88651145, w: 0.46270674}
   m_LocalPosition: {x: 0.42512384, y: 3.2997458, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 76
@@ -2038,13 +2038,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 402405378724797984}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &3398630619910551412
 Rigidbody2D:
   serializedVersion: 4
@@ -2121,10 +2121,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -2392,7 +2392,7 @@ Transform:
   m_GameObject: {fileID: 712843515281132880}
   m_LocalRotation: {x: 0, y: -0, z: -0.36030817, w: -0.9328334}
   m_LocalPosition: {x: -0.533737, y: 3.0805676, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 69
@@ -2456,13 +2456,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 712843515281132880}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &5135742988057743280
 Rigidbody2D:
   serializedVersion: 4
@@ -2539,10 +2539,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -2635,7 +2635,7 @@ Transform:
   m_GameObject: {fileID: 760381163347449326}
   m_LocalRotation: {x: -0, y: -0, z: -0.7832506, w: 0.6217061}
   m_LocalPosition: {x: -0.026441671, y: 2.9056478, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 5
@@ -2699,13 +2699,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 760381163347449326}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &4060898894037828892
 Rigidbody2D:
   serializedVersion: 4
@@ -2782,10 +2782,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -2878,7 +2878,7 @@ Transform:
   m_GameObject: {fileID: 767558591148159397}
   m_LocalRotation: {x: -0, y: -0, z: 0.9893445, w: 0.14559361}
   m_LocalPosition: {x: 0.4047865, y: 3.2067847, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 67
@@ -2942,13 +2942,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 767558591148159397}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &6195959890371726426
 Rigidbody2D:
   serializedVersion: 4
@@ -3025,10 +3025,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -3121,7 +3121,7 @@ Transform:
   m_GameObject: {fileID: 820255306177676555}
   m_LocalRotation: {x: -0, y: -0, z: -0.7832506, w: 0.6217061}
   m_LocalPosition: {x: -0.026441671, y: 2.9056478, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 105
@@ -3268,10 +3268,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -3364,7 +3364,7 @@ Transform:
   m_GameObject: {fileID: 828580928380804747}
   m_LocalRotation: {x: -0, y: -0, z: 0.9644524, w: -0.2642569}
   m_LocalPosition: {x: 0.5395371, y: 3.3255966, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 27
@@ -3428,13 +3428,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 828580928380804747}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &4023390344786508263
 Rigidbody2D:
   serializedVersion: 4
@@ -3511,10 +3511,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -3607,7 +3607,7 @@ Transform:
   m_GameObject: {fileID: 953333429980081493}
   m_LocalRotation: {x: -0, y: -0, z: 0.9644524, w: -0.2642569}
   m_LocalPosition: {x: 0.5395371, y: 3.3255966, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 127
@@ -3754,10 +3754,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -3850,7 +3850,7 @@ Transform:
   m_GameObject: {fileID: 965586885346326046}
   m_LocalRotation: {x: -0, y: -0, z: -0.19113617, w: 0.98156357}
   m_LocalPosition: {x: 0.16048655, y: 3.359472, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 90
@@ -3914,13 +3914,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 965586885346326046}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &2691743810263588601
 Rigidbody2D:
   serializedVersion: 4
@@ -3997,10 +3997,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -4093,7 +4093,7 @@ Transform:
   m_GameObject: {fileID: 1038488038104196374}
   m_LocalRotation: {x: -0, y: -0, z: 0.27065867, w: 0.9626754}
   m_LocalPosition: {x: 0.007885234, y: 3.035092, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 17
@@ -4157,13 +4157,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 1038488038104196374}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &910436962389912388
 Rigidbody2D:
   serializedVersion: 4
@@ -4240,10 +4240,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -4336,7 +4336,7 @@ Transform:
   m_GameObject: {fileID: 1119031420609885931}
   m_LocalRotation: {x: -0, y: -0, z: 0.29221806, w: 0.95635176}
   m_LocalPosition: {x: -0.12189506, y: 2.9055295, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 104
@@ -4483,10 +4483,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -4579,7 +4579,7 @@ Transform:
   m_GameObject: {fileID: 1143272739793607849}
   m_LocalRotation: {x: 0, y: -0, z: -0.5280762, w: -0.8491971}
   m_LocalPosition: {x: -0.01818714, y: 2.811011, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 101
@@ -4726,10 +4726,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -4822,7 +4822,7 @@ Transform:
   m_GameObject: {fileID: 1193572837321946813}
   m_LocalRotation: {x: -0, y: -0, z: -0.4282919, w: 0.90364045}
   m_LocalPosition: {x: -0.29002237, y: 3.0261865, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 71
@@ -4886,13 +4886,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 1193572837321946813}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &1483246344854852394
 Rigidbody2D:
   serializedVersion: 4
@@ -4969,10 +4969,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -5065,7 +5065,7 @@ Transform:
   m_GameObject: {fileID: 1195427119878959299}
   m_LocalRotation: {x: -0, y: -0, z: -0.9891009, w: 0.14723974}
   m_LocalPosition: {x: 0.1937474, y: 2.9955938, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 121
@@ -5212,10 +5212,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -5308,7 +5308,7 @@ Transform:
   m_GameObject: {fileID: 1345019358210191376}
   m_LocalRotation: {x: -0, y: -0, z: -0.3224774, w: 0.9465772}
   m_LocalPosition: {x: -0.04307789, y: 3.3575752, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 89
@@ -5372,13 +5372,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 1345019358210191376}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &8044217501803896627
 Rigidbody2D:
   serializedVersion: 4
@@ -5455,10 +5455,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -5551,7 +5551,7 @@ Transform:
   m_GameObject: {fileID: 1398904682105625263}
   m_LocalRotation: {x: -0, y: -0, z: 0.9036315, w: 0.42831087}
   m_LocalPosition: {x: 0.36598107, y: 3.0729277, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 70
@@ -5615,13 +5615,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 1398904682105625263}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &4453835180501665629
 Rigidbody2D:
   serializedVersion: 4
@@ -5698,10 +5698,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -5794,7 +5794,7 @@ Transform:
   m_GameObject: {fileID: 1428724170885310816}
   m_LocalRotation: {x: -0, y: -0, z: -0.22787374, w: 0.9736907}
   m_LocalPosition: {x: -0.5096087, y: 3.2496731, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 16
@@ -5858,13 +5858,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 1428724170885310816}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &8472470831226797760
 Rigidbody2D:
   serializedVersion: 4
@@ -5941,10 +5941,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -6037,7 +6037,7 @@ Transform:
   m_GameObject: {fileID: 1484132111440767275}
   m_LocalRotation: {x: -0, y: -0, z: -0.12748429, w: 0.9918406}
   m_LocalPosition: {x: -0.30607334, y: 3.1896994, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 20
@@ -6101,13 +6101,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 1484132111440767275}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &6018962705266295786
 Rigidbody2D:
   serializedVersion: 4
@@ -6184,10 +6184,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -6280,7 +6280,7 @@ Transform:
   m_GameObject: {fileID: 1543530801858330761}
   m_LocalRotation: {x: -0, y: -0, z: 0.21949498, w: 0.97561365}
   m_LocalPosition: {x: -0.41271964, y: 2.9187112, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 34
@@ -6344,13 +6344,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 1543530801858330761}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &3946442563244734229
 Rigidbody2D:
   serializedVersion: 4
@@ -6427,10 +6427,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -6523,7 +6523,7 @@ Transform:
   m_GameObject: {fileID: 1563096548349850566}
   m_LocalRotation: {x: -0, y: -0, z: -0.40190813, w: 0.91568005}
   m_LocalPosition: {x: -0.12287265, y: 3.4184504, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 96
@@ -6587,13 +6587,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 1563096548349850566}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &6778194326406777814
 Rigidbody2D:
   serializedVersion: 4
@@ -6670,10 +6670,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -6766,7 +6766,7 @@ Transform:
   m_GameObject: {fileID: 1655372978858266143}
   m_LocalRotation: {x: 0, y: -0, z: -0.9733556, w: -0.22930092}
   m_LocalPosition: {x: -0.16809009, y: 3.0470035, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 40
@@ -6830,13 +6830,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 1655372978858266143}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &1209569960314889051
 Rigidbody2D:
   serializedVersion: 4
@@ -6913,10 +6913,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -7009,7 +7009,7 @@ Transform:
   m_GameObject: {fileID: 1721547865592806637}
   m_LocalRotation: {x: -0, y: -0, z: -0.6808256, w: 0.7324456}
   m_LocalPosition: {x: 0.16571759, y: 2.8108726, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 2
@@ -7073,13 +7073,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 1721547865592806637}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &7531884382255919864
 Rigidbody2D:
   serializedVersion: 4
@@ -7156,10 +7156,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -7252,7 +7252,7 @@ Transform:
   m_GameObject: {fileID: 1889526492355332359}
   m_LocalRotation: {x: -0, y: -0, z: 0.9985257, w: 0.054281823}
   m_LocalPosition: {x: -0.43938872, y: 3.0904226, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 31
@@ -7316,13 +7316,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 1889526492355332359}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &383551012155181812
 Rigidbody2D:
   serializedVersion: 4
@@ -7399,10 +7399,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -7495,7 +7495,7 @@ Transform:
   m_GameObject: {fileID: 1927913246641325767}
   m_LocalRotation: {x: -0, y: -0, z: -0.96698946, w: 0.25481665}
   m_LocalPosition: {x: 0.1864141, y: 3.452357, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 97
@@ -7559,13 +7559,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 1927913246641325767}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &6780943332660413079
 Rigidbody2D:
   serializedVersion: 4
@@ -7642,10 +7642,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -7738,7 +7738,7 @@ Transform:
   m_GameObject: {fileID: 1993116088063788635}
   m_LocalRotation: {x: -0, y: -0, z: 0.24316037, w: -0.9699861}
   m_LocalPosition: {x: 0.021091798, y: 3.4780474, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 98
@@ -7802,13 +7802,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 1993116088063788635}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &808283006272364107
 Rigidbody2D:
   serializedVersion: 4
@@ -7885,10 +7885,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -7981,7 +7981,7 @@ Transform:
   m_GameObject: {fileID: 2071755947226237414}
   m_LocalRotation: {x: -0, y: -0, z: 0.85319144, w: 0.5215979}
   m_LocalPosition: {x: -0.10980297, y: 2.8113995, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 100
@@ -8128,10 +8128,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -8224,7 +8224,7 @@ Transform:
   m_GameObject: {fileID: 2105229793124131518}
   m_LocalRotation: {x: 0, y: -0, z: -0.96152204, w: -0.27472803}
   m_LocalPosition: {x: 0.6837642, y: 3.0446935, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 30
@@ -8288,13 +8288,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 2105229793124131518}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &2951221622553762122
 Rigidbody2D:
   serializedVersion: 4
@@ -8371,10 +8371,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -8467,7 +8467,7 @@ Transform:
   m_GameObject: {fileID: 2169100898378673307}
   m_LocalRotation: {x: -0, y: -0, z: 0.16858424, w: 0.98568726}
   m_LocalPosition: {x: 0.09497554, y: 2.997171, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 9
@@ -8531,13 +8531,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 2169100898378673307}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &2391980902670439007
 Rigidbody2D:
   serializedVersion: 4
@@ -8614,10 +8614,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -8710,7 +8710,7 @@ Transform:
   m_GameObject: {fileID: 2172734434432734902}
   m_LocalRotation: {x: -0, y: -0, z: 0.48923352, w: 0.87215286}
   m_LocalPosition: {x: -0.07436449, y: 2.987672, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 112
@@ -8857,10 +8857,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -8953,7 +8953,7 @@ Transform:
   m_GameObject: {fileID: 2174726703537803765}
   m_LocalRotation: {x: -0, y: -0, z: 0.70227194, w: 0.7119088}
   m_LocalPosition: {x: -0.7901856, y: 2.9997091, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 10
@@ -9017,13 +9017,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 2174726703537803765}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &3595726818024314111
 Rigidbody2D:
   serializedVersion: 4
@@ -9100,10 +9100,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -9196,7 +9196,7 @@ Transform:
   m_GameObject: {fileID: 2308509319688644427}
   m_LocalRotation: {x: -0, y: -0, z: 0.21949498, w: 0.97561365}
   m_LocalPosition: {x: -0.41271964, y: 2.9187112, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 134
@@ -9343,10 +9343,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -9439,7 +9439,7 @@ Transform:
   m_GameObject: {fileID: 2377801162380947450}
   m_LocalRotation: {x: 0, y: -0, z: -0.9733556, w: -0.22930092}
   m_LocalPosition: {x: -0.16809009, y: 3.0470035, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 140
@@ -9586,10 +9586,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -9682,7 +9682,7 @@ Transform:
   m_GameObject: {fileID: 2414148565387219374}
   m_LocalRotation: {x: -0, y: -0, z: 0.012906286, w: 0.99991673}
   m_LocalPosition: {x: -0.59993494, y: 3.0064936, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 42
@@ -9746,13 +9746,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 2414148565387219374}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &3095073019259420217
 Rigidbody2D:
   serializedVersion: 4
@@ -9829,10 +9829,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -9925,7 +9925,7 @@ Transform:
   m_GameObject: {fileID: 2461772929497309659}
   m_LocalRotation: {x: -0, y: -0, z: 0.9989616, w: 0.0455594}
   m_LocalPosition: {x: -0.2479564, y: 3.1113458, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 144
@@ -10072,10 +10072,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -10168,7 +10168,7 @@ Transform:
   m_GameObject: {fileID: 2523948523348583097}
   m_LocalRotation: {x: -0, y: -0, z: 0.9633215, w: -0.26834983}
   m_LocalPosition: {x: -0.40361175, y: 3.1784198, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 75
@@ -10232,13 +10232,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 2523948523348583097}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &5786663458685138219
 Rigidbody2D:
   serializedVersion: 4
@@ -10315,10 +10315,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -10411,7 +10411,7 @@ Transform:
   m_GameObject: {fileID: 2552738819153694803}
   m_LocalRotation: {x: 0, y: -0, z: -0.50094545, w: -0.86547893}
   m_LocalPosition: {x: 0.32417676, y: 2.9392688, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 111
@@ -10558,10 +10558,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -10654,7 +10654,7 @@ Transform:
   m_GameObject: {fileID: 2629809149769300403}
   m_LocalRotation: {x: 0, y: -0, z: -0.040970597, w: -0.99916035}
   m_LocalPosition: {x: 0.40633002, y: 2.98694, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 24
@@ -10718,13 +10718,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 2629809149769300403}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &4777856241795825258
 Rigidbody2D:
   serializedVersion: 4
@@ -10801,10 +10801,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -10897,7 +10897,7 @@ Transform:
   m_GameObject: {fileID: 2738417884978916274}
   m_LocalRotation: {x: -0, y: -0, z: 0.94422835, w: 0.32929158}
   m_LocalPosition: {x: -0.80761105, y: 3.28376, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 51
@@ -10961,13 +10961,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 2738417884978916274}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &9051504737278266222
 Rigidbody2D:
   serializedVersion: 4
@@ -11044,10 +11044,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -11140,7 +11140,7 @@ Transform:
   m_GameObject: {fileID: 3006727347909419030}
   m_LocalRotation: {x: -0, y: -0, z: -0.6808256, w: 0.7324456}
   m_LocalPosition: {x: 0.16571759, y: 2.8108726, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 102
@@ -11287,10 +11287,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -11383,7 +11383,7 @@ Transform:
   m_GameObject: {fileID: 3057864278219817655}
   m_LocalRotation: {x: -0, y: -0, z: -0.04940647, w: 0.99877876}
   m_LocalPosition: {x: 0.49159542, y: 2.9451184, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 114
@@ -11530,10 +11530,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -11626,7 +11626,7 @@ Transform:
   m_GameObject: {fileID: 3064431500509668027}
   m_LocalRotation: {x: 0, y: -0, z: -0.5280762, w: -0.8491971}
   m_LocalPosition: {x: -0.01818714, y: 2.811011, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 1
@@ -11690,13 +11690,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 3064431500509668027}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &6964465697438452948
 Rigidbody2D:
   serializedVersion: 4
@@ -11773,10 +11773,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -11869,7 +11869,7 @@ Transform:
   m_GameObject: {fileID: 3067366443299984139}
   m_LocalRotation: {x: -0, y: -0, z: 0.38555434, w: 0.92268515}
   m_LocalPosition: {x: -0.1212723, y: 3.2295742, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 81
@@ -11933,13 +11933,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 3067366443299984139}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &2505124389616191660
 Rigidbody2D:
   serializedVersion: 4
@@ -12016,10 +12016,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -12112,7 +12112,7 @@ Transform:
   m_GameObject: {fileID: 3091373678785353883}
   m_LocalRotation: {x: 0, y: -0, z: -0.96152204, w: -0.27472803}
   m_LocalPosition: {x: 0.6837642, y: 3.0446935, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 130
@@ -12259,10 +12259,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -12355,7 +12355,7 @@ Transform:
   m_GameObject: {fileID: 3149192972887844779}
   m_LocalRotation: {x: -0, y: -0, z: 0.62469345, w: 0.78087014}
   m_LocalPosition: {x: -0.21940154, y: 3.406363, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 92
@@ -12419,13 +12419,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 3149192972887844779}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &1621335235708840180
 Rigidbody2D:
   serializedVersion: 4
@@ -12502,10 +12502,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -12598,7 +12598,7 @@ Transform:
   m_GameObject: {fileID: 3158547997517581790}
   m_LocalRotation: {x: -0, y: -0, z: 0.9497484, w: -0.31301436}
   m_LocalPosition: {x: -0.15592654, y: 3.1411545, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 74
@@ -12662,13 +12662,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 3158547997517581790}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &7274401738635979429
 Rigidbody2D:
   serializedVersion: 4
@@ -12745,10 +12745,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -12841,7 +12841,7 @@ Transform:
   m_GameObject: {fileID: 3160225064858005709}
   m_LocalRotation: {x: -0, y: -0, z: 0.03202808, w: 0.99948704}
   m_LocalPosition: {x: 0.5781914, y: 2.984088, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 135
@@ -12988,10 +12988,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -13084,7 +13084,7 @@ Transform:
   m_GameObject: {fileID: 3182653924529063901}
   m_LocalRotation: {x: -0, y: -0, z: 0.26863328, w: -0.96324253}
   m_LocalPosition: {x: -0.13745388, y: 3.3245654, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 87
@@ -13148,13 +13148,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 3182653924529063901}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &1601955695334633157
 Rigidbody2D:
   serializedVersion: 4
@@ -13231,10 +13231,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -13327,7 +13327,7 @@ Transform:
   m_GameObject: {fileID: 3197489942753706348}
   m_LocalRotation: {x: 0, y: -0, z: -0.006612044, w: -0.9999782}
   m_LocalPosition: {x: 0.787227, y: 3.3002524, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 39
@@ -13391,13 +13391,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 3197489942753706348}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &695618849529674507
 Rigidbody2D:
   serializedVersion: 4
@@ -13474,10 +13474,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -13570,7 +13570,7 @@ Transform:
   m_GameObject: {fileID: 3200863045582204838}
   m_LocalRotation: {x: -0, y: -0, z: -0.04940647, w: 0.99877876}
   m_LocalPosition: {x: 0.49159542, y: 2.9451184, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 14
@@ -13634,13 +13634,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 3200863045582204838}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &5807316049181225247
 Rigidbody2D:
   serializedVersion: 4
@@ -13717,10 +13717,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -13813,7 +13813,7 @@ Transform:
   m_GameObject: {fileID: 3294530885887851750}
   m_LocalRotation: {x: -0, y: -0, z: 0.9641281, w: -0.26543748}
   m_LocalPosition: {x: -0.4410511, y: 3.364431, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 93
@@ -13877,13 +13877,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 3294530885887851750}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &8293547351204905045
 Rigidbody2D:
   serializedVersion: 4
@@ -13960,10 +13960,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -14056,7 +14056,7 @@ Transform:
   m_GameObject: {fileID: 3301089716520684578}
   m_LocalRotation: {x: -0, y: -0, z: -0.9786008, w: 0.20576817}
   m_LocalPosition: {x: -0.039904404, y: 3.1685178, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 79
@@ -14120,13 +14120,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 3301089716520684578}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &4964417864935111361
 Rigidbody2D:
   serializedVersion: 4
@@ -14203,10 +14203,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -14299,7 +14299,7 @@ Transform:
   m_GameObject: {fileID: 3336873158047596846}
   m_LocalRotation: {x: 0, y: -0, z: -0.040970597, w: -0.99916035}
   m_LocalPosition: {x: 0.40633002, y: 2.98694, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 124
@@ -14446,10 +14446,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -14542,7 +14542,7 @@ Transform:
   m_GameObject: {fileID: 3344212026026613446}
   m_LocalRotation: {x: -0, y: -0, z: -0.9838505, w: 0.1789927}
   m_LocalPosition: {x: 0.6672922, y: 2.9512167, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 37
@@ -14606,13 +14606,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 3344212026026613446}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &8090638972817755148
 Rigidbody2D:
   serializedVersion: 4
@@ -14689,10 +14689,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -14785,7 +14785,7 @@ Transform:
   m_GameObject: {fileID: 3393381794326063557}
   m_LocalRotation: {x: -0, y: -0, z: -0.95680577, w: 0.29072815}
   m_LocalPosition: {x: 0.6384783, y: 3.1633792, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 50
@@ -14849,13 +14849,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 3393381794326063557}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &4025700205606441259
 Rigidbody2D:
   serializedVersion: 4
@@ -14932,10 +14932,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -15028,7 +15028,7 @@ Transform:
   m_GameObject: {fileID: 3419628380539732335}
   m_LocalRotation: {x: -0, y: -0, z: -0.85389006, w: 0.5204535}
   m_LocalPosition: {x: 0.7839209, y: 3.205318, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 64
@@ -15092,13 +15092,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 3419628380539732335}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &2055115329024160764
 Rigidbody2D:
   serializedVersion: 4
@@ -15175,10 +15175,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -15271,7 +15271,7 @@ Transform:
   m_GameObject: {fileID: 3468373927812679452}
   m_LocalRotation: {x: -0, y: -0, z: -0.17148775, w: 0.9851863}
   m_LocalPosition: {x: 0.058673114, y: 3.1153274, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 73
@@ -15335,13 +15335,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 3468373927812679452}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &5537845202160925790
 Rigidbody2D:
   serializedVersion: 4
@@ -15418,10 +15418,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -15514,7 +15514,7 @@ Transform:
   m_GameObject: {fileID: 3512586016994024011}
   m_LocalRotation: {x: -0, y: -0, z: 0.4546551, w: 0.8906676}
   m_LocalPosition: {x: -0.53429955, y: 3.346672, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 43
@@ -15578,13 +15578,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 3512586016994024011}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &3962084225919777103
 Rigidbody2D:
   serializedVersion: 4
@@ -15661,10 +15661,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -15757,7 +15757,7 @@ Transform:
   m_GameObject: {fileID: 3534255684935691176}
   m_LocalRotation: {x: 0, y: -0, z: -0.9714211, w: -0.2373629}
   m_LocalPosition: {x: 0.7785241, y: 3.0493279, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 45
@@ -15821,13 +15821,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 3534255684935691176}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &783289129193201781
 Rigidbody2D:
   serializedVersion: 4
@@ -15904,10 +15904,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -16000,7 +16000,7 @@ Transform:
   m_GameObject: {fileID: 3536132679967462945}
   m_LocalRotation: {x: 0, y: -0, z: -0.29275942, w: -0.9561862}
   m_LocalPosition: {x: -0.21560057, y: 3.2185411, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 118
@@ -16147,10 +16147,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -16243,7 +16243,7 @@ Transform:
   m_GameObject: {fileID: 3545565051807189518}
   m_LocalRotation: {x: -0, y: -0, z: 0.41884652, w: 0.9080571}
   m_LocalPosition: {x: 0.49879062, y: 3.2398026, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 33
@@ -16307,13 +16307,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 3545565051807189518}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &683952423595543251
 Rigidbody2D:
   serializedVersion: 4
@@ -16390,10 +16390,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -16486,7 +16486,7 @@ Transform:
   m_GameObject: {fileID: 3563774581133644558}
   m_LocalRotation: {x: 0, y: -0, z: -0.43255764, w: -0.9016063}
   m_LocalPosition: {x: -0.7159768, y: 3.1301684, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 65
@@ -16550,13 +16550,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 3563774581133644558}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &3249935894824465759
 Rigidbody2D:
   serializedVersion: 4
@@ -16633,10 +16633,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -16729,7 +16729,7 @@ Transform:
   m_GameObject: {fileID: 3582433327167955306}
   m_LocalRotation: {x: -0, y: -0, z: 0.72260684, w: -0.6912593}
   m_LocalPosition: {x: 0.32143885, y: 3.2541919, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 29
@@ -16793,13 +16793,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 3582433327167955306}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &3933116688839345089
 Rigidbody2D:
   serializedVersion: 4
@@ -16876,10 +16876,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -16972,7 +16972,7 @@ Transform:
   m_GameObject: {fileID: 3736405422664943567}
   m_LocalRotation: {x: -0, y: -0, z: 0.9944501, w: 0.10520934}
   m_LocalPosition: {x: -0.31503198, y: 2.9282298, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 113
@@ -17119,10 +17119,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -17215,7 +17215,7 @@ Transform:
   m_GameObject: {fileID: 3847347174643958799}
   m_LocalRotation: {x: -0, y: -0, z: 0.8494071, w: -0.5277383}
   m_LocalPosition: {x: 0.0737657, y: 2.8110433, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 103
@@ -17362,10 +17362,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -17458,7 +17458,7 @@ Transform:
   m_GameObject: {fileID: 3910609623948392012}
   m_LocalRotation: {x: -0, y: -0, z: -0.22787374, w: 0.9736907}
   m_LocalPosition: {x: -0.5096087, y: 3.2496731, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 116
@@ -17605,10 +17605,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -17701,7 +17701,7 @@ Transform:
   m_GameObject: {fileID: 4025992458096277408}
   m_LocalRotation: {x: -0, y: -0, z: 0.5749172, w: 0.8182117}
   m_LocalPosition: {x: 0.23255521, y: 3.2973092, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 80
@@ -17765,13 +17765,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 4025992458096277408}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &6465548688687994430
 Rigidbody2D:
   serializedVersion: 4
@@ -17848,10 +17848,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -17944,7 +17944,7 @@ Transform:
   m_GameObject: {fileID: 4091188765634935387}
   m_LocalRotation: {x: -0, y: -0, z: 0.974344, w: 0.22506407}
   m_LocalPosition: {x: 0.5050701, y: 3.0464215, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 49
@@ -18008,13 +18008,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 4091188765634935387}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &4053499694810055192
 Rigidbody2D:
   serializedVersion: 4
@@ -18091,10 +18091,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -18187,7 +18187,7 @@ Transform:
   m_GameObject: {fileID: 4251542655690977363}
   m_LocalRotation: {x: -0, y: -0, z: -0.17981263, w: 0.9837009}
   m_LocalPosition: {x: -0.6067724, y: 2.911795, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 7
@@ -18251,13 +18251,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 4251542655690977363}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &481943395727545487
 Rigidbody2D:
   serializedVersion: 4
@@ -18334,10 +18334,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -18430,7 +18430,7 @@ Transform:
   m_GameObject: {fileID: 4254278670848916811}
   m_LocalRotation: {x: -0, y: -0, z: -0.10629081, w: 0.9943351}
   m_LocalPosition: {x: 0.2838902, y: 3.025267, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 32
@@ -18494,13 +18494,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 4254278670848916811}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &5700066745493533146
 Rigidbody2D:
   serializedVersion: 4
@@ -18577,10 +18577,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -18673,7 +18673,7 @@ Transform:
   m_GameObject: {fileID: 4279719400183560342}
   m_LocalRotation: {x: -0, y: -0, z: -0.846593, w: 0.5322408}
   m_LocalPosition: {x: -0.60345894, y: 3.2817206, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 62
@@ -18737,13 +18737,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 4279719400183560342}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &469785269752824118
 Rigidbody2D:
   serializedVersion: 4
@@ -18820,10 +18820,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -18916,7 +18916,7 @@ Transform:
   m_GameObject: {fileID: 4319098739103404423}
   m_LocalRotation: {x: -0, y: -0, z: 0.16858424, w: 0.98568726}
   m_LocalPosition: {x: 0.09497554, y: 2.997171, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 109
@@ -19063,10 +19063,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -19159,7 +19159,7 @@ Transform:
   m_GameObject: {fileID: 4376694648578714946}
   m_LocalRotation: {x: 0, y: -0, z: -0.006612044, w: -0.9999782}
   m_LocalPosition: {x: 0.787227, y: 3.3002524, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 139
@@ -19306,10 +19306,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -19402,7 +19402,7 @@ Transform:
   m_GameObject: {fileID: 4465527185163819790}
   m_LocalRotation: {x: -0, y: -0, z: 0.29221806, w: 0.95635176}
   m_LocalPosition: {x: -0.12189506, y: 2.9055295, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 4
@@ -19466,13 +19466,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 4465527185163819790}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &2920761016033503612
 Rigidbody2D:
   serializedVersion: 4
@@ -19549,10 +19549,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -19645,7 +19645,7 @@ Transform:
   m_GameObject: {fileID: 4550907650442432640}
   m_LocalRotation: {x: -0, y: -0, z: 0.2055465, w: -0.97864735}
   m_LocalPosition: {x: -0.7964861, y: 2.905108, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 28
@@ -19709,13 +19709,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 4550907650442432640}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &3043388100183948566
 Rigidbody2D:
   serializedVersion: 4
@@ -19792,10 +19792,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -19888,7 +19888,7 @@ Transform:
   m_GameObject: {fileID: 4660787592139314805}
   m_LocalRotation: {x: -0, y: -0, z: -0.9697759, w: 0.24399737}
   m_LocalPosition: {x: 0.25778705, y: 3.3896594, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 95
@@ -19952,13 +19952,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 4660787592139314805}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &1461611501369456048
 Rigidbody2D:
   serializedVersion: 4
@@ -20035,10 +20035,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -20131,7 +20131,7 @@ Transform:
   m_GameObject: {fileID: 4811665113373452821}
   m_LocalRotation: {x: -0, y: -0, z: -0.9124686, w: 0.4091467}
   m_LocalPosition: {x: 0.051761065, y: 3.3070436, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 85
@@ -20195,13 +20195,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 4811665113373452821}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &3060995398986174558
 Rigidbody2D:
   serializedVersion: 4
@@ -20278,10 +20278,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -20374,7 +20374,7 @@ Transform:
   m_GameObject: {fileID: 4832372059248209515}
   m_LocalRotation: {x: -0, y: -0, z: -0.91648936, w: 0.40005907}
   m_LocalPosition: {x: 0.06854221, y: 2.9058769, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 106
@@ -20521,10 +20521,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -20617,7 +20617,7 @@ Transform:
   m_GameObject: {fileID: 4967425412076703638}
   m_LocalRotation: {x: -0, y: -0, z: 0.70044917, w: -0.7137023}
   m_LocalPosition: {x: 0.142836, y: 3.172368, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 57
@@ -20681,13 +20681,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 4967425412076703638}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &1465988829620299306
 Rigidbody2D:
   serializedVersion: 4
@@ -20764,10 +20764,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -20860,7 +20860,7 @@ Transform:
   m_GameObject: {fileID: 5230754772598153300}
   m_LocalRotation: {x: -0, y: -0, z: -0.695941, w: 0.718099}
   m_LocalPosition: {x: -0.65288216, y: 3.2008047, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 54
@@ -20924,13 +20924,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 5230754772598153300}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &5022336983314841369
 Rigidbody2D:
   serializedVersion: 4
@@ -21007,10 +21007,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -21103,7 +21103,7 @@ Transform:
   m_GameObject: {fileID: 5418668597606541420}
   m_LocalRotation: {x: -0, y: -0, z: 0.9975479, w: -0.06998695}
   m_LocalPosition: {x: -0.34536117, y: 3.1033034, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 36
@@ -21167,13 +21167,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 5418668597606541420}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &361291692690503809
 Rigidbody2D:
   serializedVersion: 4
@@ -21250,10 +21250,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -21346,7 +21346,7 @@ Transform:
   m_GameObject: {fileID: 5533575614587475937}
   m_LocalRotation: {x: 0, y: -0, z: -0.99874514, w: -0.050082237}
   m_LocalPosition: {x: 0.045837693, y: 3.20943, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 82
@@ -21410,13 +21410,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 5533575614587475937}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &9028219829776128536
 Rigidbody2D:
   serializedVersion: 4
@@ -21493,10 +21493,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -21589,7 +21589,7 @@ Transform:
   m_GameObject: {fileID: 5535676997618058550}
   m_LocalRotation: {x: -0, y: -0, z: -0.9891009, w: 0.14723974}
   m_LocalPosition: {x: 0.1937474, y: 2.9955938, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 21
@@ -21653,13 +21653,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 5535676997618058550}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &1972086237630350504
 Rigidbody2D:
   serializedVersion: 4
@@ -21736,10 +21736,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -21832,7 +21832,7 @@ Transform:
   m_GameObject: {fileID: 5602844937602318408}
   m_LocalRotation: {x: -0, y: -0, z: 0.95223236, w: -0.30537465}
   m_LocalPosition: {x: 0.59666675, y: 3.2486806, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 23
@@ -21896,13 +21896,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 5602844937602318408}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &1584514680600754086
 Rigidbody2D:
   serializedVersion: 4
@@ -21979,10 +21979,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -22075,7 +22075,7 @@ Transform:
   m_GameObject: {fileID: 5628985675217874852}
   m_LocalRotation: {x: -0, y: -0, z: -0.4688928, w: 0.88325506}
   m_LocalPosition: {x: -0.51189554, y: 2.9150538, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 22
@@ -22139,13 +22139,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 5628985675217874852}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &2668508632367806851
 Rigidbody2D:
   serializedVersion: 4
@@ -22222,10 +22222,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -22318,7 +22318,7 @@ Transform:
   m_GameObject: {fileID: 5671153895455384989}
   m_LocalRotation: {x: -0, y: -0, z: -0.12748429, w: 0.9918406}
   m_LocalPosition: {x: -0.30607334, y: 3.1896994, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 120
@@ -22465,10 +22465,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -22561,7 +22561,7 @@ Transform:
   m_GameObject: {fileID: 5772022540915234737}
   m_LocalRotation: {x: 0, y: -0, z: -0.8974677, w: -0.44108024}
   m_LocalPosition: {x: 0.5370527, y: 3.1529186, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 56
@@ -22625,13 +22625,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 5772022540915234737}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &5918588640020799338
 Rigidbody2D:
   serializedVersion: 4
@@ -22708,10 +22708,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -22804,7 +22804,7 @@ Transform:
   m_GameObject: {fileID: 5816262253240093283}
   m_LocalRotation: {x: -0, y: -0, z: -0.7166607, w: 0.6974221}
   m_LocalPosition: {x: 0.34413406, y: 3.3500447, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 86
@@ -22868,13 +22868,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 5816262253240093283}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &3609233815962514896
 Rigidbody2D:
   serializedVersion: 4
@@ -22951,10 +22951,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -23047,7 +23047,7 @@ Transform:
   m_GameObject: {fileID: 5849637141434425902}
   m_LocalRotation: {x: -0, y: -0, z: -0.8980925, w: 0.43980673}
   m_LocalPosition: {x: 0.5947818, y: 3.0775938, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 59
@@ -23111,13 +23111,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 5849637141434425902}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &1350075176859422562
 Rigidbody2D:
   serializedVersion: 4
@@ -23194,10 +23194,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -23290,7 +23290,7 @@ Transform:
   m_GameObject: {fileID: 5984555928477954961}
   m_LocalRotation: {x: -0, y: -0, z: 0.70227194, w: 0.7119088}
   m_LocalPosition: {x: -0.7901856, y: 2.9997091, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 110
@@ -23437,10 +23437,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -23533,7 +23533,7 @@ Transform:
   m_GameObject: {fileID: 6022489764065006277}
   m_LocalRotation: {x: -0, y: -0, z: 0.87105465, w: -0.4911862}
   m_LocalPosition: {x: 0.46369144, y: 3.3865607, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 94
@@ -23597,13 +23597,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 6022489764065006277}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &9142791948365996813
 Rigidbody2D:
   serializedVersion: 4
@@ -23680,10 +23680,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -23776,7 +23776,7 @@ Transform:
   m_GameObject: {fileID: 6159318237834657992}
   m_LocalRotation: {x: -0, y: -0, z: 0.012906286, w: 0.99991673}
   m_LocalPosition: {x: -0.59993494, y: 3.0064936, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 142
@@ -23923,10 +23923,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -24019,7 +24019,7 @@ Transform:
   m_GameObject: {fileID: 6251991533010144310}
   m_LocalRotation: {x: -0, y: -0, z: -0.91648936, w: 0.40005907}
   m_LocalPosition: {x: 0.06854221, y: 2.9058769, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 6
@@ -24083,13 +24083,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 6251991533010144310}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &6669246060085689341
 Rigidbody2D:
   serializedVersion: 4
@@ -24166,10 +24166,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -24262,7 +24262,7 @@ Transform:
   m_GameObject: {fileID: 6308716885669362717}
   m_LocalRotation: {x: 0, y: -0, z: -0.50094545, w: -0.86547893}
   m_LocalPosition: {x: 0.32417676, y: 2.9392688, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 11
@@ -24326,13 +24326,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 6308716885669362717}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &2733792688062457626
 Rigidbody2D:
   serializedVersion: 4
@@ -24409,10 +24409,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -24505,7 +24505,7 @@ Transform:
   m_GameObject: {fileID: 6332800391048485632}
   m_LocalRotation: {x: -0, y: -0, z: 0.84253055, w: 0.53864855}
   m_LocalPosition: {x: -0.071681745, y: 3.498477, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 99
@@ -24569,13 +24569,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 6332800391048485632}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &997970504636553238
 Rigidbody2D:
   serializedVersion: 4
@@ -24652,10 +24652,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -24748,7 +24748,7 @@ Transform:
   m_GameObject: {fileID: 6567004350364629910}
   m_LocalRotation: {x: -0, y: -0, z: -0.4688928, w: 0.88325506}
   m_LocalPosition: {x: -0.51189554, y: 2.9150538, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 122
@@ -24895,10 +24895,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -24991,7 +24991,7 @@ Transform:
   m_GameObject: {fileID: 6583432332372100098}
   m_LocalRotation: {x: -0, y: -0, z: 0.03202808, w: 0.99948704}
   m_LocalPosition: {x: 0.5781914, y: 2.984088, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 35
@@ -25055,13 +25055,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 6583432332372100098}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &2828094091679289343
 Rigidbody2D:
   serializedVersion: 4
@@ -25138,10 +25138,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -25234,7 +25234,7 @@ Transform:
   m_GameObject: {fileID: 6621109133918413051}
   m_LocalRotation: {x: -0, y: -0, z: -0.10629081, w: 0.9943351}
   m_LocalPosition: {x: 0.2838902, y: 3.025267, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 132
@@ -25381,10 +25381,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -25477,7 +25477,7 @@ Transform:
   m_GameObject: {fileID: 6635435198367810419}
   m_LocalRotation: {x: 0, y: -0, z: -0.29275942, w: -0.9561862}
   m_LocalPosition: {x: -0.21560057, y: 3.2185411, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 18
@@ -25541,13 +25541,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 6635435198367810419}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &2795341524985976291
 Rigidbody2D:
   serializedVersion: 4
@@ -25624,10 +25624,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -25720,7 +25720,7 @@ Transform:
   m_GameObject: {fileID: 6843719896886971940}
   m_LocalRotation: {x: -0, y: -0, z: 0.27065867, w: 0.9626754}
   m_LocalPosition: {x: 0.007885234, y: 3.035092, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 117
@@ -25867,10 +25867,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -25963,7 +25963,7 @@ Transform:
   m_GameObject: {fileID: 6945909406184062089}
   m_LocalRotation: {x: -0, y: -0, z: 0.24145749, w: 0.9704115}
   m_LocalPosition: {x: -0.21697296, y: 2.9656723, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 119
@@ -26110,10 +26110,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -26206,7 +26206,7 @@ Transform:
   m_GameObject: {fileID: 6973129313140629164}
   m_LocalRotation: {x: -0, y: -0, z: 0.957598, w: 0.28810817}
   m_LocalPosition: {x: 0.4473248, y: 3.1218514, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 68
@@ -26270,13 +26270,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 6973129313140629164}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &1861593214284876421
 Rigidbody2D:
   serializedVersion: 4
@@ -26353,10 +26353,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -26449,7 +26449,7 @@ Transform:
   m_GameObject: {fileID: 6977529750991705990}
   m_LocalRotation: {x: -0, y: -0, z: 0.24145749, w: 0.9704115}
   m_LocalPosition: {x: -0.21697296, y: 2.9656723, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 19
@@ -26513,13 +26513,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 6977529750991705990}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &1588225415600534339
 Rigidbody2D:
   serializedVersion: 4
@@ -26596,10 +26596,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -26692,7 +26692,7 @@ Transform:
   m_GameObject: {fileID: 6996779243472027627}
   m_LocalRotation: {x: -0, y: -0, z: 0.7494048, w: 0.6621122}
   m_LocalPosition: {x: 0.23610644, y: 3.1073613, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 63
@@ -26756,13 +26756,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 6996779243472027627}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &9217243429374307513
 Rigidbody2D:
   serializedVersion: 4
@@ -26839,10 +26839,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -26935,7 +26935,7 @@ Transform:
   m_GameObject: {fileID: 7121948992074233129}
   m_LocalRotation: {x: -0, y: -0, z: 0.8738887, w: -0.48612618}
   m_LocalPosition: {x: 0.074253455, y: 3.3993244, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 91
@@ -26999,13 +26999,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 7121948992074233129}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &6794244988515737062
 Rigidbody2D:
   serializedVersion: 4
@@ -27082,10 +27082,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -27178,7 +27178,7 @@ Transform:
   m_GameObject: {fileID: 7135119896240946495}
   m_LocalRotation: {x: -0, y: -0, z: -0.50337297, w: 0.8640693}
   m_LocalPosition: {x: -0.5627456, y: 3.1709666, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 25
@@ -27242,13 +27242,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 7135119896240946495}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &8008465782575277693
 Rigidbody2D:
   serializedVersion: 4
@@ -27325,10 +27325,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -27421,7 +27421,7 @@ Transform:
   m_GameObject: {fileID: 7252174283246132867}
   m_LocalRotation: {x: -0, y: -0, z: -0.53240955, w: 0.84648687}
   m_LocalPosition: {x: -0.47814116, y: 3.003697, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 48
@@ -27485,13 +27485,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 7252174283246132867}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &6405322243873690014
 Rigidbody2D:
   serializedVersion: 4
@@ -27568,10 +27568,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -27664,7 +27664,7 @@ Transform:
   m_GameObject: {fileID: 7283951432147757652}
   m_LocalRotation: {x: -0, y: -0, z: 0.95223236, w: -0.30537465}
   m_LocalPosition: {x: 0.59666675, y: 3.2486806, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 123
@@ -27811,10 +27811,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -27907,7 +27907,7 @@ Transform:
   m_GameObject: {fileID: 7431803939768679993}
   m_LocalRotation: {x: 0, y: -0, z: -0.8835011, w: -0.46842924}
   m_LocalPosition: {x: 0.7622299, y: 2.9545832, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 46
@@ -27971,13 +27971,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 7431803939768679993}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &3256372342754692144
 Rigidbody2D:
   serializedVersion: 4
@@ -28054,10 +28054,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -28150,7 +28150,7 @@ Transform:
   m_GameObject: {fileID: 7478235015360959376}
   m_LocalRotation: {x: -0, y: -0, z: -0.38157052, w: 0.9243397}
   m_LocalPosition: {x: -0.3466916, y: 3.3751056, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 88
@@ -28214,13 +28214,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 7478235015360959376}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &171244522473715683
 Rigidbody2D:
   serializedVersion: 4
@@ -28297,10 +28297,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -28393,7 +28393,7 @@ Transform:
   m_GameObject: {fileID: 7536331473672747704}
   m_LocalRotation: {x: -0, y: -0, z: 0.04306361, w: 0.9990724}
   m_LocalPosition: {x: 0.1457678, y: 3.0774732, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 26
@@ -28457,13 +28457,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 7536331473672747704}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &514329273783913168
 Rigidbody2D:
   serializedVersion: 4
@@ -28540,10 +28540,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -28636,7 +28636,7 @@ Transform:
   m_GameObject: {fileID: 7594964669094063424}
   m_LocalRotation: {x: 0, y: -0, z: -0.41090727, w: -0.9116772}
   m_LocalPosition: {x: -0.3230229, y: 3.2831273, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 115
@@ -28783,10 +28783,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -28879,7 +28879,7 @@ Transform:
   m_GameObject: {fileID: 7621132634175443811}
   m_LocalRotation: {x: -0, y: -0, z: 0.41884652, w: 0.9080571}
   m_LocalPosition: {x: 0.49879062, y: 3.2398026, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 133
@@ -29026,10 +29026,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -29122,7 +29122,7 @@ Transform:
   m_GameObject: {fileID: 7681652534955934640}
   m_LocalRotation: {x: -0, y: -0, z: -0.5001832, w: 0.86591965}
   m_LocalPosition: {x: 0.23334382, y: 3.2023153, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 138
@@ -29269,10 +29269,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -29365,7 +29365,7 @@ Transform:
   m_GameObject: {fileID: 7775075414005318134}
   m_LocalRotation: {x: -0, y: -0, z: 0.8765083, w: 0.48138684}
   m_LocalPosition: {x: -0.0324694, y: 3.2631924, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 84
@@ -29429,13 +29429,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 7775075414005318134}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &2392429909213686080
 Rigidbody2D:
   serializedVersion: 4
@@ -29512,10 +29512,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -29608,7 +29608,7 @@ Transform:
   m_GameObject: {fileID: 7812936034509497557}
   m_LocalRotation: {x: 0, y: -0, z: -0.41090727, w: -0.9116772}
   m_LocalPosition: {x: -0.3230229, y: 3.2831273, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 15
@@ -29672,13 +29672,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 7812936034509497557}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &5830367823913809308
 Rigidbody2D:
   serializedVersion: 4
@@ -29755,10 +29755,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -29851,7 +29851,7 @@ Transform:
   m_GameObject: {fileID: 7870142395658784982}
   m_LocalRotation: {x: 0, y: -0, z: -0.9995648, w: -0.029499173}
   m_LocalPosition: {x: -0.07999869, y: 3.0824542, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 72
@@ -29915,13 +29915,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 7870142395658784982}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &1266219144076677803
 Rigidbody2D:
   serializedVersion: 4
@@ -29998,10 +29998,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -30094,7 +30094,7 @@ Transform:
   m_GameObject: {fileID: 7873569701883750528}
   m_LocalRotation: {x: -0, y: -0, z: 0.8494071, w: -0.5277383}
   m_LocalPosition: {x: 0.0737657, y: 2.8110433, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 3
@@ -30158,13 +30158,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 7873569701883750528}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &5232744447615666783
 Rigidbody2D:
   serializedVersion: 4
@@ -30241,10 +30241,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -30337,7 +30337,7 @@ Transform:
   m_GameObject: {fileID: 7879956613233888401}
   m_LocalRotation: {x: -0, y: -0, z: 0.9944501, w: 0.10520934}
   m_LocalPosition: {x: -0.31503198, y: 2.9282298, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 13
@@ -30401,13 +30401,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 7879956613233888401}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &8955032740323175285
 Rigidbody2D:
   serializedVersion: 4
@@ -30484,10 +30484,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -30580,7 +30580,7 @@ Transform:
   m_GameObject: {fileID: 7900806571431592913}
   m_LocalRotation: {x: -0, y: -0, z: 0.013232173, w: -0.99991244}
   m_LocalPosition: {x: 0.7271123, y: 3.1292057, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 55
@@ -30644,13 +30644,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 7900806571431592913}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &7919780527353734264
 Rigidbody2D:
   serializedVersion: 4
@@ -30727,10 +30727,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -30823,7 +30823,7 @@ Transform:
   m_GameObject: {fileID: 7916381218258380207}
   m_LocalRotation: {x: -0, y: -0, z: 0.04306361, w: 0.9990724}
   m_LocalPosition: {x: 0.1457678, y: 3.0774732, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 126
@@ -30970,10 +30970,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -31066,7 +31066,7 @@ Transform:
   m_GameObject: {fileID: 7929247602592600696}
   m_LocalRotation: {x: -0, y: -0, z: 0.9616219, w: 0.27437806}
   m_LocalPosition: {x: -0.8032038, y: 3.0936298, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 58
@@ -31130,13 +31130,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 7929247602592600696}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &8063654303131310338
 Rigidbody2D:
   serializedVersion: 4
@@ -31213,10 +31213,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -31309,7 +31309,7 @@ Transform:
   m_GameObject: {fileID: 8076874942202100058}
   m_LocalRotation: {x: -0, y: -0, z: 0.9989616, w: 0.0455594}
   m_LocalPosition: {x: -0.2479564, y: 3.1113458, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 44
@@ -31373,13 +31373,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 8076874942202100058}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &8691919912431715341
 Rigidbody2D:
   serializedVersion: 4
@@ -31456,10 +31456,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -31552,7 +31552,7 @@ Transform:
   m_GameObject: {fileID: 8086236335885129861}
   m_LocalRotation: {x: -0, y: -0, z: 0.50987136, w: 0.8602507}
   m_LocalPosition: {x: 0.1635098, y: 2.90568, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 108
@@ -31699,10 +31699,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -31795,7 +31795,7 @@ Transform:
   m_GameObject: {fileID: 8183011553240626808}
   m_LocalRotation: {x: -0, y: -0, z: -0.50337297, w: 0.8640693}
   m_LocalPosition: {x: -0.5627456, y: 3.1709666, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 125
@@ -31942,10 +31942,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -32038,7 +32038,7 @@ Transform:
   m_GameObject: {fileID: 8199193895542467295}
   m_LocalRotation: {x: -0, y: -0, z: 0.9985257, w: 0.054281823}
   m_LocalPosition: {x: -0.43938872, y: 3.0904226, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 131
@@ -32185,10 +32185,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -32281,7 +32281,7 @@ Transform:
   m_GameObject: {fileID: 8200879696493823262}
   m_LocalRotation: {x: -0, y: -0, z: 0.72260684, w: -0.6912593}
   m_LocalPosition: {x: 0.32143885, y: 3.2541919, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 129
@@ -32428,10 +32428,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -32524,7 +32524,7 @@ Transform:
   m_GameObject: {fileID: 8246004238649679451}
   m_LocalRotation: {x: -0, y: -0, z: 0.2130633, w: 0.97703844}
   m_LocalPosition: {x: -0.69549865, y: 3.0071645, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 66
@@ -32588,13 +32588,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 8246004238649679451}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &6241126379557895170
 Rigidbody2D:
   serializedVersion: 4
@@ -32671,10 +32671,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -32767,7 +32767,7 @@ Transform:
   m_GameObject: {fileID: 8306969314313227329}
   m_LocalRotation: {x: -0, y: -0, z: 0.78893447, w: 0.6144774}
   m_LocalPosition: {x: -0.62703997, y: 3.09751, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 61
@@ -32831,13 +32831,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 8306969314313227329}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &2932913212781540903
 Rigidbody2D:
   serializedVersion: 4
@@ -32914,10 +32914,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -33010,7 +33010,7 @@ Transform:
   m_GameObject: {fileID: 8336739112154489287}
   m_LocalRotation: {x: -0, y: -0, z: 0.4546551, w: 0.8906676}
   m_LocalPosition: {x: -0.53429955, y: 3.346672, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 143
@@ -33157,10 +33157,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -33253,7 +33253,7 @@ Transform:
   m_GameObject: {fileID: 8398437311121086145}
   m_LocalRotation: {x: -0, y: -0, z: 0.85319144, w: 0.5215979}
   m_LocalPosition: {x: -0.214, y: 2.758, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 0
@@ -33317,13 +33317,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 8398437311121086145}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &8376450625034456817
 Rigidbody2D:
   serializedVersion: 4
@@ -33400,10 +33400,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -33496,7 +33496,7 @@ Transform:
   m_GameObject: {fileID: 8707407498304344923}
   m_LocalRotation: {x: -0, y: -0, z: 0.9514795, w: 0.30771238}
   m_LocalPosition: {x: -0.70164114, y: 2.9087102, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 53
@@ -33560,13 +33560,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 8707407498304344923}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &7670180785431840555
 Rigidbody2D:
   serializedVersion: 4
@@ -33643,10 +33643,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -33739,7 +33739,7 @@ Transform:
   m_GameObject: {fileID: 8715404745658339471}
   m_LocalRotation: {x: -0, y: -0, z: 0.50987136, w: 0.8602507}
   m_LocalPosition: {x: 0.1635098, y: 2.90568, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 8
@@ -33803,13 +33803,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 8715404745658339471}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &2931421626325273595
 Rigidbody2D:
   serializedVersion: 4
@@ -33886,10 +33886,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -33982,7 +33982,7 @@ Transform:
   m_GameObject: {fileID: 8736802251461074540}
   m_LocalRotation: {x: -0, y: -0, z: 0.48505333, w: 0.87448466}
   m_LocalPosition: {x: 0.13797554, y: 3.2672024, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 83
@@ -34046,13 +34046,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 8736802251461074540}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &8639464390614842808
 Rigidbody2D:
   serializedVersion: 4
@@ -34129,10 +34129,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -34225,7 +34225,7 @@ Transform:
   m_GameObject: {fileID: 8778344891927881526}
   m_LocalRotation: {x: -0, y: -0, z: -0.9838505, w: 0.1789927}
   m_LocalPosition: {x: 0.6672922, y: 2.9512167, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 137
@@ -34372,10 +34372,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -34468,7 +34468,7 @@ Transform:
   m_GameObject: {fileID: 8912029820298760677}
   m_LocalRotation: {x: -0, y: -0, z: -0.84312415, w: 0.537719}
   m_LocalPosition: {x: -0.41739446, y: 3.272409, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 77
@@ -34532,13 +34532,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 8912029820298760677}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &6720748084807963223
 Rigidbody2D:
   serializedVersion: 4
@@ -34615,10 +34615,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -34711,7 +34711,7 @@ Transform:
   m_GameObject: {fileID: 8920552593145798150}
   m_LocalRotation: {x: -0, y: -0, z: 0.48923352, w: 0.87215286}
   m_LocalPosition: {x: -0.07436449, y: 2.987672, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 12
@@ -34775,13 +34775,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 8920552593145798150}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &3794743682934747185
 Rigidbody2D:
   serializedVersion: 4
@@ -34858,10 +34858,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -34954,7 +34954,7 @@ Transform:
   m_GameObject: {fileID: 8921803104804268037}
   m_LocalRotation: {x: -0, y: -0, z: 0.44456974, w: 0.89574426}
   m_LocalPosition: {x: -0.38338467, y: 3.0090804, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 52
@@ -35018,13 +35018,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 8921803104804268037}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &7126577074660766281
 Rigidbody2D:
   serializedVersion: 4
@@ -35101,10 +35101,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -35197,7 +35197,7 @@ Transform:
   m_GameObject: {fileID: 9052402518600032651}
   m_LocalRotation: {x: -0, y: -0, z: 0.3928683, w: -0.91959476}
   m_LocalPosition: {x: -0.79598993, y: 3.1883433, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.08226259, y: 0.08226259, z: 0.8226259}
   m_Children: []
   m_Father: {fileID: 7306076659487796713}
   m_RootOrder: 60
@@ -35261,13 +35261,13 @@ CircleCollider2D:
   m_GameObject: {fileID: 9052402518600032651}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68ddb697a76638c4986f6ad960e37352, type: 2}
+  m_Material: {fileID: 6200000, guid: b0a58d042ab47e4459e8de12a0bf051f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.4
 --- !u!50 &5410380317542879824
 Rigidbody2D:
   serializedVersion: 4
@@ -35344,10 +35344,10 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.1
+  m_Time: 0.25
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.05
+    widthMultiplier: 0.025
     widthCurve:
       serializedVersion: 2
       m_Curve:

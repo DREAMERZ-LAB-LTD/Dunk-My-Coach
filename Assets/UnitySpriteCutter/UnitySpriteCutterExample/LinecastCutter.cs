@@ -4,6 +4,7 @@ using UnitySpriteCutter;
 using System.Collections;
 using DG.Tweening;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(LineRenderer))]
 public class LinecastCutter : MonoBehaviour
@@ -12,6 +13,8 @@ public class LinecastCutter : MonoBehaviour
     Vector2 mouseStart;
     [SerializeField] AudioClip cuttingSoundEffect;
     AudioSource audioSource;
+    [SerializeField]
+    private UnityEvent OnCutingSuccess;
 
     void Update()
     {
@@ -48,6 +51,7 @@ public class LinecastCutter : MonoBehaviour
         {
             mouseEnd = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             LinecastCut(mouseStart, mouseEnd, layerMask.value);
+
         }
 #endif
     }
@@ -81,19 +85,25 @@ public class LinecastCutter : MonoBehaviour
             });
 
 
-
+            //here
             if (output != null && output.secondSideGameObject != null)
             {
                 Rigidbody2D newRigidbody = output.secondSideGameObject.AddComponent<Rigidbody2D>();
                 if (output.firstSideGameObject.GetComponent<Rigidbody2D>())
+                {
+                   
                     newRigidbody.velocity = output.firstSideGameObject.GetComponent<Rigidbody2D>().velocity;
 
-                HingeJoint2D hingeJoint2D = go.GetComponent<HingeJoint2D>();
+                }
+              
+
+
+                //HingeJoint2D hingeJoint2D = go.GetComponent<HingeJoint2D>();
                 Destroy(go.GetComponent<HingeJoint2D>());
                 Destroy(output.firstSideGameObject.GetComponent<HingeJoint2D>());
                 Destroy(output.secondSideGameObject.GetComponent<HingeJoint2D>());
 
-                StartCoroutine(NewMethod(go, output));
+                StartCoroutine(SetHingeJoint(go, output));
             }
 
             if (go.GetComponent<Rigidbody2D>())
@@ -103,7 +113,7 @@ public class LinecastCutter : MonoBehaviour
         }
     }
 
-    private IEnumerator NewMethod(GameObject go, SpriteCutterOutput output)
+    private IEnumerator SetHingeJoint(GameObject go, SpriteCutterOutput output)
     {
         //yield return new WaitForSeconds(0.1f);
         yield return null;
@@ -118,6 +128,7 @@ public class LinecastCutter : MonoBehaviour
 
                 //Vector2 jointPosition = go.GetComponent<CuttableHingeJointManipulator>().joint.position;
                 float jointPosition = go.GetComponent<CuttableHingeJointManipulator>().joint.position.x;
+
 
                 float x = 0;
                 for (var i = 0; i < output.firstSideGameObject.GetComponent<MeshFilter>().sharedMesh.vertices.Length; i++)
@@ -144,16 +155,23 @@ public class LinecastCutter : MonoBehaviour
 
                 float distance = Mathf.Abs(jointPosition - firstPosition);
 
+
                 if (distance > Mathf.Abs(jointPosition - secondPosition))
                 {
 
                     output.secondSideGameObject.AddComponent<HingeJoint2D>();
                     output.secondSideGameObject.GetComponent<HingeJoint2D>().anchor = go.GetComponent<CuttableHingeJointManipulator>().leftAnchor.anchor;
 
+
                     StartCoroutine(SecondUpdateHinge(output.secondSideGameObject, go.GetComponent<CuttableHingeJointManipulator>().leftAnchor.anchor));
                     StartCoroutine(Disappear(output.firstSideGameObject));
 
                     SetCuttableHingeJoint(go, output.secondSideGameObject);
+
+                   
+            
+             
+                  //  ConfigureJoint(output.secondSideGameObject, go.GetComponent<CuttableHingeJointManipulator>());
                 }
                 else
                 {
@@ -163,22 +181,67 @@ public class LinecastCutter : MonoBehaviour
                     StartCoroutine(Disappear(output.secondSideGameObject));
 
                     SetCuttableHingeJoint(go, output.firstSideGameObject);
+
+            
+                 //   ConfigureJoint(output.firstSideGameObject, go.GetComponent<CuttableHingeJointManipulator>());
                 }
+
             }
             else
             {
                 StartCoroutine(Disappear(output.firstSideGameObject));
                 StartCoroutine(Disappear(output.secondSideGameObject));
             }
+            OnCutingSuccess.Invoke();
         }
-        Destroy(go);//
+        go.GetComponent<CuttableHingeJointManipulator>()?.CutterResponce();
+        Destroy(go);
     }
+
+    private void ConfigureJoint(GameObject newQuad, CuttableHingeJointManipulator referenceData)
+    {
+        newQuad.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
+        
+        if (referenceData != null)
+        {
+            Transform parent = referenceData.parent.transform;
+            if (parent != null)
+            { 
+                Vector3 targetRotation = referenceData.targetRotation;
+                float time = referenceData.rotationTime;
+                newQuad.transform.SetParent(parent);
+                parent.transform.DORotate(targetRotation, time);
+            }
+
+        }
+
+        /*
+        newQuad.GetComponent<HingeJoint2D>().useLimits = referenceData.useLimits;
+        newQuad.GetComponent<HingeJoint2D>().connectedBody = referenceData.connectedBody;
+     
+        JointAngleLimits2D limits = new JointAngleLimits2D();
+        limits.min = referenceData.minAngle;
+        limits.max = referenceData.maxAngle;
+        newQuad.GetComponent<HingeJoint2D>().limits = limits;
+
+        newQuad.GetComponent<HingeJoint2D>().useMotor = referenceData.useMotor;
+        JointMotor2D motor = new JointMotor2D();
+        motor.motorSpeed = referenceData.motorSpeed;
+        motor.maxMotorTorque = referenceData.maxMotorTorque;
+        newQuad.GetComponent<HingeJoint2D>().motor = motor;
+        newQuad.GetComponent<HingeJoint2D>().breakForce = 9999;
+        newQuad.GetComponent<HingeJoint2D>().breakTorque = 9999;
+        */
+    }
+
 
     private static void SetCuttableHingeJoint(GameObject go, GameObject newGO)
     {
         newGO.AddComponent<CuttableHingeJointManipulator>();
-        newGO.GetComponent<CuttableHingeJointManipulator>().joint = go.GetComponent<CuttableHingeJointManipulator>().joint;
-        newGO.GetComponent<CuttableHingeJointManipulator>().leftAnchor = go.GetComponent<CuttableHingeJointManipulator>().leftAnchor;
+        CuttableHingeJointManipulator referenceInfo = go.GetComponent<CuttableHingeJointManipulator>();
+        //newGO.GetComponent<CuttableHingeJointManipulator>().joint = referenceInfo.joint;
+        //newGO.GetComponent<CuttableHingeJointManipulator>().leftAnchor = referenceInfo.leftAnchor;
+        newGO.GetComponent<CuttableHingeJointManipulator>().CopyFrom(referenceInfo);
     }
 
     IEnumerator SecondUpdateHinge(GameObject mahJoint, Vector2 anchor)

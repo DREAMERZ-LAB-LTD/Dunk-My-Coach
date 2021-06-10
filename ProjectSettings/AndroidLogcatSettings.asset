@@ -1,10 +1,10 @@
 {
-    "m_SelectedDeviceId": "R58N65HB8SD",
+    "m_SelectedDeviceId": "51143932",
     "m_SelectedPackage": {
-        "deviceId": "R58N65HB8SD",
-        "name": "com.DreamerzLab.DunkMyNeighbor",
-        "processId": 26862,
-        "exited": true
+        "deviceId": "51143932",
+        "name": "com.DreamerzLab.DunkMyNeighbour",
+        "processId": 28771,
+        "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
@@ -91,6 +91,30 @@
             "name": "com.DreamerzLab.DunkMyNeighbor",
             "processId": 26862,
             "exited": true
+        },
+        {
+            "deviceId": "51143932",
+            "name": "com.miui.home",
+            "processId": 11405,
+            "exited": false
+        },
+        {
+            "deviceId": "51143932",
+            "name": "com.android.settings",
+            "processId": 20532,
+            "exited": false
+        },
+        {
+            "deviceId": "51143932",
+            "name": "com.DreamerzLab.DunkMyNeighbour",
+            "processId": 24136,
+            "exited": false
+        },
+        {
+            "deviceId": "51143932",
+            "name": "com.DreamerzLab.DunkMyNeighbour",
+            "processId": 28771,
+            "exited": false
         }
     ],
     "m_Tags": {

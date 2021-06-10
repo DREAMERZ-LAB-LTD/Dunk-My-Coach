@@ -1,7 +1,5 @@
 {
   "dependencies": {
-    "com.lionstudios.release.lionkit": "1.2.2",
-    "com.lionstudios.release.localization": "1.0.25",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.2d.tilemap": "1.0.0",
     "com.unity.device-simulator": "2.2.4-preview",

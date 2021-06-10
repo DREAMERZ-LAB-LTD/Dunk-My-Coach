@@ -106,8 +106,7 @@ public class CoachCollider : MonoBehaviour
 
     void ChangeMaterial()
     {
-        Debug.Log("Test");
-
+       
         if (postWinCoachMaterial != null)
         {
             coachRenderer.material = postWinCoachMaterial;

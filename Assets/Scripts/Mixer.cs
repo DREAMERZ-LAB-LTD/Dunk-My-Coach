@@ -17,6 +17,8 @@ public class Mixer : MonoBehaviour
     [SerializeField] GameObject wood;
     [SerializeField] TextMeshPro warningLabel;
     [SerializeField] Texture bodyTexture;
+
+    public LevelTwoFailDetector failDetector;
     int count;
     bool mixed = false;
     void Start()
@@ -45,6 +47,11 @@ public class Mixer : MonoBehaviour
 
             wood.layer = LayerMask.NameToLayer("Cuttable");
             warningLabel.DOFade(0, 1);
+            failDetector.OnLiquidFalling(true);
+        }
+        else if(count < minCount && mixed)
+        {
+            failDetector.OnLiquidFalling(false);
         }
     }
 
